@@ -1,0 +1,78 @@
+Source: mate-games
+Section: misc
+Priority: optional
+Maintainer: Josselin Mouette <joss@debian.org>
+Uploaders: @MATE_TEAM@
+Build-Depends: cdbs,
+               debhelper (>= 8),
+               dpkg-dev (>= 1.13.19),
+               python-support (>= 0.3),
+               pkg-config (>= 0.15),
+               mate-doc-utils,
+               mate-doc-utils-gnome | gnome-doc-utils,
+               scrollkeeper,
+               python (>= 2.5),
+               python-gtk2-dev (>= 2.10.0), 
+               libcanberra-gtk-dev,
+               libglib2.0-dev (>= 2.14.0),
+               libgtk2.0-dev (>= 2.16.0),
+               libmateconf-dev,
+               libcairo2-dev (>= 1.0),
+               librsvg2-dev (>= 2.14.0),
+               libclutter-1.0-dev (>= 1.0.0),
+               libclutter-gtk-0.10-dev (>= 0.10.2),
+               libdbus-glib-1-dev (>= 0.75),
+               libsm-dev,
+               intltool (>= 0.35.0), 
+               guile-1.8-dev
+Standards-Version: 3.8.3
+Homepage: http://mate-desktop.org/
+
+Package: mate-games
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         mate-games-data (= ${binary:Version}),
+         librsvg2-common,
+         ${python:Depends},
+         python-gtk2 (>= 2.10.0),
+         python-bugbuddy (>= 2.17.3),
+         python-opengl,
+         python-gtkglext1,
+         mesa-utils,
+         gnuchess | hoichess | bbchess | crafty | fruit
+Description: games for the MATE desktop
+ These are the games from the official MATE release. They have the look and
+ feel of the MATE desktop, but can be used without it.
+ .
+ The package contains the following games:
+  * aisleriot - different solitaire card games
+  * glchess - chess game with 3D graphics
+  * glines - color lines game, aka fiveormore
+  * gnect - four in a row game
+  * gnibbles - snake game, up to four players
+  * gnobots2 - improved old BSD robots game
+  * mate-sudoku - Sudoku puzzle
+  * gnomine - popular minesweeper puzzle game
+  * gnotravex - puzzle where you match tile edges together
+  * gnotski - klotski puzzle game
+  * gtali - sort of poker with dice and less money
+  * iagno - the popular Othello game
+  * mahjongg - classic Eastern tile game
+  * quadrapassel - popular Russian game
+
+Package: mate-games-data
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         mate-cards-data (= ${binary:Version})
+Description: data files for the MATE games
+ This package contains the data files, sound and pictures used by the
+ MATE games.
+
+Package: mate-cards-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: data files for the MATE card games
+ This package contains pictures of card decks used by the card-based 
+ MATE games. Different themes are provided.

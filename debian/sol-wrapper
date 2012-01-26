@@ -1,0 +1,10 @@
+#! /bin/bash
+set -e
+
+if glxinfo | egrep -qi '(direct.*no|renderer.*(software|mesa x11$))'; then
+  # Found software rendering
+  exec sol-gdk "$@"
+else
+  # 3D acceleration is here, use the clutter version
+  exec sol-clutter "$@"
+fi

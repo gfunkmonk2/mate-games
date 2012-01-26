@@ -1,0 +1,13 @@
+[Desktop Entry]
+Icon=mate-gnect
+_Name=Four-in-a-Row
+_Comment=Make lines of the same color to win
+Exec=/usr/games/gnect
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;LogicGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true

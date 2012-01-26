@@ -1,0 +1,3 @@
+version=2
+http://ftp.mate.org/pub/MATE/sources/mate-games/([\d\.]+)[02468]/ \
+	mate-games-(.*)\.tar\.gz

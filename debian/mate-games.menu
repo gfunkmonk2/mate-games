@@ -1,0 +1,67 @@
+?package(mate-games):needs="X11" section="Games/Board" \
+	title="GL Chess" command="/usr/games/glchess" \
+	icon="/usr/share/pixmaps/glchess.xpm"
+
+?package(mate-games):needs="X11" section="Games/Board" \
+	title="Mate Lines" command="/usr/games/glines" \
+	icon="/usr/share/pixmaps/glines.xpm"
+
+?package(mate-games):needs="X11" section="Games/Board" \
+	title="Four-in-a-row" command="/usr/games/gnect" \
+	icon="/usr/share/pixmaps/gnect.xpm"
+
+?package(mate-games):needs="X11" section="Games/Action" \
+	title="Gnibbles" command="/usr/games/gnibbles" \
+	icon="/usr/share/pixmaps/gnibbles.xpm"
+
+?package(mate-games):needs="X11" section="Games/Puzzles" \
+	title="Mate Robots" command="/usr/games/gnobots2" \
+	icon="/usr/share/pixmaps/gnobots2.xpm"
+
+?package(mate-games):needs="X11" section="Games/Puzzles" \
+	title="Mate Sudoku" command="/usr/games/mate-sudoku" \
+	icon="/usr/share/pixmaps/mate-sudoku.xpm"
+
+?package(mate-games):needs="X11" section="Games/Blocks" \
+	title="Quadrapassel" command="/usr/games/quadrapassel" \
+	icon="/usr/share/pixmaps/matetris.xpm"
+
+?package(mate-games):needs="X11" section="Games/Puzzles" \
+	hints="Mines" title="Gnomine" command="/usr/games/gnomine" \
+	icon="/usr/share/pixmaps/gnomine.xpm"
+
+?package(mate-games):needs="X11" section="Games/Puzzles" \
+	title="Mate Tetravex" command="/usr/games/gnotravex" \
+	icon="/usr/share/pixmaps/gnotravex.xpm"
+
+?package(mate-games):needs="X11" section="Games/Puzzles" \
+	title="Mate Klotski" command="/usr/games/gnotski" \
+	icon="/usr/share/pixmaps/gnotski.xpm"
+
+?package(mate-games):needs="X11" section="Games/Board" \
+	title="Mate GYahtzee" command="/usr/games/gtali" \
+	icon="/usr/share/pixmaps/gtali.xpm"
+
+?package(mate-games):needs="X11" section="Games/Board" \
+	title="Mate Iagno" command="/usr/games/iagno" \
+	icon="/usr/share/pixmaps/iagno.xpm"
+
+?package(mate-games):needs="X11" section="Games/Board" \
+	hints="Mahjongg" title="Mate Mahjongg" command="/usr/games/mahjongg" \
+	icon="/usr/share/pixmaps/mate-mahjongg.xpm"
+
+#?package(mate-games):needs="X11" section="Games/Puzzles" \
+#	title="Swell Foop" command="/usr/games/swell-foop" \
+#	icon="/usr/share/pixmaps/gsame.xpm"
+
+?package(mate-games):needs="X11" section="Games/Card" \
+	title="Mate Solitaire Games" command="/usr/games/sol" \
+	icon="/usr/share/pixmaps/aisleriot.xpm"
+
+?package(mate-games):needs="X11" section="Games/Card" \
+	title="Mate FreeCell" command="/usr/games/sol --variation freecell" \
+	icon="/usr/share/pixmaps/freecell.xpm"
+
+#?package(mate-games):needs="X11" section="Games/Puzzles" \
+#	title="Lights Off" command="/usr/games/lightsoff" \
+#	icon="/usr/share/pixmaps/lightsoff.xpm"

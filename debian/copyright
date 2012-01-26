@@ -1,0 +1,125 @@
+This package was debianized by
+Noel Koethe <noel@debian.org> on Sun, 18 Aug 2002 16:22:32 +0200.
+
+It was downloaded from ftp://ftp.mate.org/pub/MATE/sources/mate-games/
+
+Copyright © 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 
+1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 
+2006, 2007, 2008
+	Jonathan Blandford <jrb@redhat.com>
+	Ryu Changwoo <cwryu@eve.kaist.ac.kr>
+	Ian Peters <ipeters@acm.org>
+	Sean MacIsaac <sjm@acm.org>
+	Mark Rae <Mark.Rae@ed.ac.uk>
+	Carsten Schaar <nhadcasc@fs-maphy.uni-hannover.de>
+	J. Marcin Gorycki <mgo@olicom.dk>
+	Pista <szekeres@cyberspace.mht.bme.hu> 
+	Lars Rydlinge <Lars.Rydlinge@HiG.SE>
+	Scott Heavner <sdh@po.cwru.edu>
+	Francisco Bustamante <pancho@nuclecu.unam.mx>
+	Michael Meeks <michael@imaginator.com>
+	Christopher James Lahey <clahey@umich.edu>
+	Alan Cox <alan@cymru.net>
+	James Henstridge <james@daa.com.au>
+	Szabolcs Ban <shooby@mate.hu>
+	Robert Szokovacs <szo@appaloosacorp.hu>
+	Callum McKenzie <callum@spooky-possum.org>
+	Jason Clinton <me@jasonclinton.com>
+	Andreas Røsdal <andreasr@mate.org>
+	Robert Ancell <robert.ancell@gmail.com>
+	Software in the Public Interest, Inc.
+	Free Software Foundation, Inc.
+	Red Hat, Inc.
+and many, many others.
+
+License:
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files: libgames-support/*
+Copyright: Copyright 2007, 2008, 2009 Christian Persch
+ Copyright 2008 Thomas H.P. Andersen
+License: LGPL-3+ | LGPL-2+ | GPL-2+
+
+Files: aisleriot/*
+Copyright: Copyright 1998, 2001, 2003, 2006 Jonathan Blandford
+ Copyright 2002, 2004 Anders Carlsson
+ Copyright 2007 Christian Persc
+ Copyright 2008 Neil Roberts
+License: GPL-3+
+
+Files: blackjack/*
+Copyright: Copyright 2003, 2004, 2005 William Jon McCann
+ Copyright 1999, 2001, 2002 Eric Farmer
+ Copyright 2008 Christian Persch
+License: GPL-3+ | LGPL-2+
+
+License: LGPL-2+
+    This package is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301
+    USA
+
+On Debian systems, the complete text of the GNU Lesser General
+Public License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-3+
+    This package is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 3 of the License, or (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301
+    USA
+
+On Debian systems, the complete text of the GNU Lesser General
+Public License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: GPL-3+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU General
+Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.

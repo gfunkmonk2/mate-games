@@ -1,0 +1,6481 @@
+# MATE mängude eesti keele tõlge.
+# Estonian translation of MATE games.
+#
+# Copyright (C) 1999, 2002, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007–2010 The MATE Project.
+# This file is distributed under the same license as the mate-games package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002.
+# Ilmar Kerm <ikerm hot ee>, 2002.
+# Ivar Smolin <okul linux ee>, 2005–2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-games 2.30\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
+"games&component=general\n"
+"POT-Creation-Date: 2010-03-29 21:18+0000\n"
+"PO-Revision-Date: 2010-05-04 21:49+0300\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <mate-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "A list of recently played games."
+msgstr "Viimati mängitud mängude nimekiri."
+
+msgid ""
+"A list of strings that come in the form of a quintuple: name, wins, total "
+"games played, best time (in seconds) and worst time (also in seconds). "
+"Unplayed games do not need to be represented."
+msgstr ""
+
+msgid "Animations"
+msgstr "Animatsioonid"
+
+msgid "Recently played games"
+msgstr "Viimati mängitud mängud"
+
+msgid "Select the style of control"
+msgstr "Juhtimislaadi valimine"
+
+msgid ""
+"Select whether to drag the cards or to click on the source then the "
+"destination."
+msgstr ""
+"Kui märgitud, siis kaarte tõstetakse teise kohta lohistamise abil, vastasel "
+"juhul aga klõpsamise abil."
+
+msgid "Sound"
+msgstr "Heli"
+
+msgid "Statistics of games played"
+msgstr "Mängitud mängude statistika"
+
+msgid "The game file to use"
+msgstr "Kasutatav mängufail"
+
+msgid "The name of the file with the graphics for the cards."
+msgstr "Kaardigraafika faili nimi."
+
+msgid "The name of the scheme file containing the solitaire game to play."
+msgstr "Kaardiladumismängu skeemifaili nimi."
+
+msgid "Theme file name"
+msgstr "Teemafaili nimi"
+
+msgid "Whether or not to animate card moves."
+msgstr "Kas kaardikäikude animatsiooni kasutatakse või mitte."
+
+msgid "Whether or not to play event sounds."
+msgstr "Kas helisid esitatakse või mitte."
+
+msgid "Whether or not to show the status bar"
+msgstr "Kas olekuriba on nähtaval või peidus"
+
+msgid "Whether or not to show the toolbar"
+msgstr "Kas tööriistariba on nähtaval või peidus"
+
+#. Now construct the window contents
+msgid "Select Game"
+msgstr "Vali mäng"
+
+msgid "_Select"
+msgstr "_Vali"
+
+msgid "FreeCell Solitaire"
+msgstr "Kaardiladumismäng FreeCell"
+
+msgid "Play the popular FreeCell card game"
+msgstr "Populaarse FreeCell kaardiladumismängu mängimine"
+
+#, c-format
+msgid ""
+"Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+"installation."
+msgstr ""
+"Aisleriotil pole võimalik faili „%s” laadida. Palun kontrolli oma "
+"Aisleriot'i paigaldust."
+
+#. Translators: this is the name of a type of card slot
+#| msgid "the foundation"
+msgctxt "slot type"
+msgid "foundation"
+msgstr ""
+
+#. Translators: this is the name of a type of card slot
+#| msgid "Reserved"
+msgctxt "slot type"
+msgid "reserve"
+msgstr ""
+
+#. Translators: this is the name of a type of card slot
+#| msgid "Clock"
+msgctxt "slot type"
+msgid "stock"
+msgstr ""
+
+#. Translators: this is the name of a type of card slot
+#| msgid "Table"
+msgctxt "slot type"
+msgid "tableau"
+msgstr ""
+
+#. Translators: this is the name of a type of card slot
+#| msgctxt "game speed"
+#| msgid "Fast"
+msgctxt "slot type"
+msgid "waste"
+msgstr ""
+
+#. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
+#, c-format
+#| msgid "empty slot on foundation"
+msgctxt "slot hint"
+msgid "%s on foundation"
+msgstr ""
+
+#. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
+#, c-format
+#| msgid "an empty reserve"
+msgctxt "slot hint"
+msgid "%s on reserve"
+msgstr ""
+
+#. Translators: %s is the name of the card; "stock" is the name of a type of card slot
+#, c-format
+msgctxt "slot hint"
+msgid "%s on stock"
+msgstr ""
+
+#. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
+#, c-format
+#| msgid "an open tableau"
+msgctxt "slot hint"
+msgid "%s on tableau"
+msgstr ""
+
+#. Translators: %s is the name of the card; "waste" is the name of a type of card slot
+#, c-format
+msgctxt "slot hint"
+msgid "%s on waste"
+msgstr ""
+
+msgid "Aisleriot cannot find the last game you played."
+msgstr "Aisleriotil pole võimalik viimati mängitud mängu leida."
+
+msgid ""
+"This usually occurs when you run an older version of Aisleriot which does "
+"not have the game you last played. The default game, Klondike, is being "
+"started instead."
+msgstr ""
+"See juhtub tavaliselt siis, kui Aisleriot'i eelmises versioonis pole viimati "
+"mängitud mängu salvestatud. Selle asemel käivitatakse vaikimisi mäng "
+"Klondike."
+
+msgid "This game does not have hint support yet."
+msgstr "Sellel mängul pole veel vihjete tuge."
+
+#. Both %s are card names
+#. The first %s is a card name, the 2nd %s a sentence fragment.
+#. * Yes, we know this is bad for i18n.
+#.
+#, c-format
+msgid "Move %s onto %s."
+msgstr "Võiks %s tõsta %s peale."
+
+#, c-format
+msgid "You are searching for a %s."
+msgstr "Te otsite %s."
+
+msgid "This game is unable to provide a hint."
+msgstr "See mäng ei suuda ühtegi vihjet anda."
+
+#. This is a generated file; DO NOT EDIT
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Peek"
+msgstr "Piilu"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Auld Lang Syne"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Fortunes"
+msgstr "Vedamised"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Seahaven"
+msgstr "Meretaevas"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "King Albert"
+msgstr "Kuningas Albert"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "First Law"
+msgstr "Esimene seadus"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Straight Up"
+msgstr "Otse üles"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Jumbo"
+msgstr "Hiigelsuur"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Accordion"
+msgstr "Akordion"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Ten Across"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Plait"
+msgstr "Palmik"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Lady Jane"
+msgstr "Leedi Jane"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Gypsy"
+msgstr "Mustlane"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Neighbor"
+msgstr "Naaber"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Jamestown"
+msgstr "Jamestown"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Osmosis"
+msgstr "Osmoos"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Kings Audience"
+msgstr "Kuningate vastuvõtt"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Glenwood"
+msgstr "Glenwood"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Gay Gordons"
+msgstr "Gay Gordons"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Monte Carlo"
+msgstr "Monte Carlo"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Kansas"
+msgstr "Kansas"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Camelot"
+msgstr "Camelot"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Fourteen"
+msgstr "Neliteist"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Scorpion"
+msgstr "Skorpion"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Isabel"
+msgstr "Isabel"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Escalator"
+msgstr "Ekskalaator"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Agnes"
+msgstr "Agnes"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Bristol"
+msgstr "Bristol"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Quatorze"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Bear River"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Gold Mine"
+msgstr "Kullakaevandus"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Athena"
+msgstr "Ateena"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Spiderette"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Chessboard"
+msgstr "Malelaud"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Backbone"
+msgstr "Selgroog"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Yukon"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Union Square"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Eight Off"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Napoleons Tomb"
+msgstr "Napoleoni haud"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Forty Thieves"
+msgstr "Nelikümmend röövlit"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Streets And Alleys"
+msgstr "Tänavad ja alleed"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Maze"
+msgstr "Keerdkäigusti"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Clock"
+msgstr "Kell"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Pileon"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Canfield"
+msgstr "Canfield"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Thirteen"
+msgstr "Kolmteist"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Bakers Game"
+msgstr "Pagari mäng"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Triple Peaks"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Easthaven"
+msgstr "Idataevas"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Terrace"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Aunt Mary"
+msgstr "Tädi Mari"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Carpet"
+msgstr "Vaip"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Sir Tommy"
+msgstr "Söör Tommy"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Diamond Mine"
+msgstr "Teemantikaevandus"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Yield"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Labyrinth"
+msgstr "Labürint"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Thieves"
+msgstr "Vargad"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Saratoga"
+msgstr "Saratoga"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Cruel"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Block Ten"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Will O The Wisp"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Odessa"
+msgstr "Odessa"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Eagle Wing"
+msgstr "Kotka tiib"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Treize"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Zebra"
+msgstr "Sebra"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Cover"
+msgstr "Taust"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Elevator"
+msgstr "Lift"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Fortress"
+msgstr "Kindlus"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Giant"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Spider"
+msgstr "Ämblik"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Gaps"
+msgstr "Lüngad"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Bakers Dozen"
+msgstr "Kuraditosin"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Whitehead"
+msgstr "Valgepea"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Freecell"
+msgstr "Freecell"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Helsinki"
+msgstr "Helsinki"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Spider Three Decks"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Scuffle"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Poker"
+msgstr "Pokker"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Klondike Three Decks"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Valentine"
+msgstr "Valentin"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Royal East"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Thumb And Pouch"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Klondike"
+msgstr ""
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Doublets"
+msgstr "Dubletid"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Template"
+msgstr "Mall"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Golf"
+msgstr "Golf"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Westhaven"
+msgstr "Läänetaevas"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Beleaguered Castle"
+msgstr "Ümberpiiratud loss"
+
+#. Translators: this string is the name of a game of patience.
+#. If there is an established standard name for this game in your
+#. locale, use that; otherwise you can translate this string
+#. freely, literally, or not at all, at your option.
+#.
+msgid "Hopscotch"
+msgstr ""
+
+#. String reserve
+#| msgid "FreeCell Solitaire"
+msgid "Solitaire"
+msgstr "Solitaire"
+
+#| msgid "Same MATE Scores"
+msgid "MATE Solitaire"
+msgstr "MATE Solitaire"
+
+#| msgid "About FreeCell Solitaire"
+msgid "About Solitaire"
+msgstr "Solitaire mängust lähemalt"
+
+msgid "Select the game type to play"
+msgstr "Mängu liigi valimine"
+
+msgid "NAME"
+msgstr "NIMI"
+
+msgid "Select the game number"
+msgstr "Mängu numbri valimine"
+
+msgid "NUMBER"
+msgstr "NUMBER"
+
+msgid "AisleRiot"
+msgstr "AisleRiot"
+
+msgid "AisleRiot Solitaire"
+msgstr "AisleRiot Solitaire"
+
+msgid "Play many different solitaire games"
+msgstr "Palju erinevaid kaardiladumismänge"
+
+msgid "Unknown color"
+msgstr "Tundmatu värv"
+
+msgid "Unknown suit"
+msgstr "Tundmatu mast"
+
+msgid "Unknown value"
+msgstr "Tundmatu väärtus"
+
+msgid "ace"
+msgstr "äss"
+
+#. A black joker.
+msgid "black joker"
+msgstr "must jokker"
+
+msgid "clubs"
+msgstr "risti"
+
+msgid "diamonds"
+msgstr "ruutud"
+
+msgid "eight"
+msgstr "kaheksa"
+
+msgid "five"
+msgstr "viis"
+
+msgid "four"
+msgstr "neli"
+
+msgid "hearts"
+msgstr "ärtud"
+
+msgid "jack"
+msgstr "soldat"
+
+msgid "king"
+msgstr "kuningas"
+
+msgid "nine"
+msgstr "üheksa"
+
+msgid "queen"
+msgstr "lipp"
+
+#. A red joker.
+msgid "red joker"
+msgstr "punane jokker"
+
+msgid "seven"
+msgstr "seitse"
+
+msgid "six"
+msgstr "kuus"
+
+msgid "spades"
+msgstr "potid"
+
+msgid "ten"
+msgstr "kümme"
+
+msgid "the ace of clubs"
+msgstr "risti ässa"
+
+msgid "the ace of diamonds"
+msgstr "ruutu ässa"
+
+msgid "the ace of hearts"
+msgstr "ärtu ässa"
+
+msgid "the ace of spades"
+msgstr "poti ässa"
+
+msgid "the eight of clubs"
+msgstr "risti kaheksa"
+
+msgid "the eight of diamonds"
+msgstr "ruutu kaheksa"
+
+msgid "the eight of hearts"
+msgstr "ärtu kaheksa"
+
+msgid "the eight of spades"
+msgstr "poti kaheksa"
+
+msgid "the five of clubs"
+msgstr "risti viie"
+
+msgid "the five of diamonds"
+msgstr "ruutu viie"
+
+msgid "the five of hearts"
+msgstr "ärtu viie"
+
+msgid "the five of spades"
+msgstr "poti viie"
+
+msgid "the four of clubs"
+msgstr "risti nelja"
+
+msgid "the four of diamonds"
+msgstr "ruutu nelja"
+
+msgid "the four of hearts"
+msgstr "ärtu nelja"
+
+msgid "the four of spades"
+msgstr "poti nelja"
+
+msgid "the jack of clubs"
+msgstr "risti soldati"
+
+msgid "the jack of diamonds"
+msgstr "ruutu soldati"
+
+msgid "the jack of hearts"
+msgstr "ärtu soldati"
+
+msgid "the jack of spades"
+msgstr "poti soldati"
+
+msgid "the king of clubs"
+msgstr "risti kuninga"
+
+msgid "the king of diamonds"
+msgstr "ruutu kuninga"
+
+msgid "the king of hearts"
+msgstr "ärtu kuninga"
+
+msgid "the king of spades"
+msgstr "poti kuninga"
+
+msgid "the nine of clubs"
+msgstr "risti üheksa"
+
+msgid "the nine of diamonds"
+msgstr "ruutu üheksa"
+
+msgid "the nine of hearts"
+msgstr "ärtu üheksa"
+
+msgid "the nine of spades"
+msgstr "poti üheksa"
+
+msgid "the queen of clubs"
+msgstr "risti emanda"
+
+msgid "the queen of diamonds"
+msgstr "ruutu emanda"
+
+msgid "the queen of hearts"
+msgstr "ärtu emanda"
+
+msgid "the queen of spades"
+msgstr "poti emanda"
+
+msgid "the seven of clubs"
+msgstr "risti seitsme"
+
+msgid "the seven of diamonds"
+msgstr "ruutu seitsme"
+
+msgid "the seven of hearts"
+msgstr "ärtu seitsme"
+
+msgid "the seven of spades"
+msgstr "poti seitsme"
+
+msgid "the six of clubs"
+msgstr "risti kuue"
+
+msgid "the six of diamonds"
+msgstr "ruutu kuue"
+
+msgid "the six of hearts"
+msgstr "ärtu kuue"
+
+msgid "the six of spades"
+msgstr "poti kuue"
+
+msgid "the ten of clubs"
+msgstr "risti kümne"
+
+msgid "the ten of diamonds"
+msgstr "ruutu kümne"
+
+msgid "the ten of hearts"
+msgstr "ärtu kümne"
+
+msgid "the ten of spades"
+msgstr "poti kümne"
+
+msgid "the three of clubs"
+msgstr "risti kolme"
+
+msgid "the three of diamonds"
+msgstr "ruutu kolme"
+
+msgid "the three of hearts"
+msgstr "ärtu kolme"
+
+msgid "the three of spades"
+msgstr "poti kolme"
+
+msgid "the two of clubs"
+msgstr "risti kahe"
+
+msgid "the two of diamonds"
+msgstr "ruutu kahe"
+
+msgid "the two of hearts"
+msgstr "ärtu kahe"
+
+msgid "the two of spades"
+msgstr "poti kahe"
+
+msgid "the unknown card"
+msgstr "tundmatu kaart"
+
+msgid "three"
+msgstr "kolm"
+
+msgid "two"
+msgstr "kaks"
+
+#. Translators: this is the total number of won games
+msgid "Wins:"
+msgstr "Võite:"
+
+#. Translators: this is the number of games played
+msgid "Total:"
+msgstr "Kokku:"
+
+#. Translators: this is the percentage of games won out of all games played
+msgid "Percentage:"
+msgstr "Protsent:"
+
+#. Translators: this is the section title of a section which contains the n
+#. * number of games played, number of games won, and the ratio of these 2 numbers.
+#.
+msgid "Wins"
+msgstr "Võite"
+
+#. Translators: this is the best time of all wins
+msgid "Best:"
+msgstr "Parim:"
+
+#. Translators: this is the worst time of all wins
+msgid "Worst:"
+msgstr "Halvim:"
+
+#. Translators: this is the section title of a section containing the
+#. * best and worst time taken to win a game.
+#.
+msgid "Time"
+msgstr "Aeg"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+#. Translators: Translate this to "%Id" if you want to use localised digits,
+#. * and to "%d" otherwise. Do not translate it to anything else!
+#.
+#, c-format
+msgid "%d"
+msgstr "%d"
+
+#. Translators: Translate the "%d" in this string this to "%Id" if you
+#. * want to use localised digits, and to "%d" otherwise.
+#. * Do not translate the "%d" part to anything else!
+#. * You may translate the "%%" part to use any other percent character(s)
+#. * instead, or leave it as "%%". If you chose a character other than
+#. * "%" (U+0025 PERCENT SIGN) you do NOT need to escape it with another "%"!
+#.
+#, c-format
+msgid "%d%%"
+msgstr "%d%%"
+
+#. For translators: N/A means "Not Applicable", use whatever
+#. * abbreviation you have for a value that has no meaning.
+msgid "N/A"
+msgstr "Pole"
+
+#. Translators: this represents minutes:seconds.
+#, c-format
+msgid "%d:%02d"
+msgstr "%d:%02d"
+
+#, c-format
+msgid "Could not show help for “%s”"
+msgstr "„%s” jaoks pole võimalik abiteavet näidata"
+
+msgid "Congratulations, you have won!"
+msgstr "Õnnitlused, sinu võit!"
+
+msgid "There are no more moves"
+msgstr "Rohkem käike ei ole"
+
+#. Empty title shows up as "<unnamed>" on maemo
+msgid "Game Over"
+msgstr "Mäng on läbi"
+
+msgid "Main game:"
+msgstr "Põhimäng:"
+
+msgid "Card games:"
+msgstr "Kaardimängud:"
+
+msgid "Card themes:"
+msgstr "Kaartide teemad:"
+
+msgid "About FreeCell Solitaire"
+msgstr "Kaardiladumismängust FreeCell lähemalt"
+
+msgid "About AisleRiot"
+msgstr "Kaardiladumismängust AisleRiot lähemalt"
+
+msgid ""
+"AisleRiot provides a rule-based solitaire card engine that allows many "
+"different games to be played.\n"
+"AisleRiot is a part of MATE Games."
+msgstr ""
+"AisleRiot on reeglitel põhinevate kaardiladumismängude mootor, mis võimaldab "
+"mängida palju erinevaid kaardimänge.\n"
+"\"AisleRiot\" kuulub MATE mängude koosseisu."
+
+#. this doesn't work for anyone
+msgid "translator-credits"
+msgstr ""
+"Lauris Kaplinski <lauris ariman ee>, 1999.\n"
+"Tõivo Leedjärv <toivo linux ee>, 2002.\n"
+"Ilmar Kerm <ikerm hot ee>, 2002.\n"
+"Ivar Smolin <okul linux ee>, 2005–2010."
+
+msgid "MATE Desktop web site"
+msgstr "MATE mängude veebisait"
+
+#, c-format
+msgid "Play “%s”"
+msgstr "Mängu „%s” mängimine"
+
+#, c-format
+msgid "Display cards with “%s” card theme"
+msgstr "Kaarte näidatakse teemaga „%s”"
+
+#. Translators: if you want to use localised digits for the game score,
+#. * then translate this string to "%I6d", else to "%6d".
+#. * Do not translate it to anything else!
+#.
+#, c-format
+msgctxt "score"
+msgid "%6d"
+msgstr "%6d"
+
+msgid "A scheme exception occurred"
+msgstr ""
+
+msgid "Please report this bug to the developers."
+msgstr "Palun teata sellest veast arendajatele."
+
+#. Empty title shows up as "<unnamed>" on maemo
+msgid "Error"
+msgstr "Viga"
+
+msgid "_Don't report"
+msgstr "Ä_ra teata"
+
+msgid "_Report"
+msgstr "_Teata"
+
+msgid "Freecell Solitaire"
+msgstr "Kaardiladumismäng Freecell"
+
+#. Menu actions
+#. Preferences Dialog: Title of game options tab
+msgid "_Game"
+msgstr "_Mäng"
+
+#. Preferences Dialog: Title of view options tab
+msgid "_View"
+msgstr "_Vaade"
+
+msgid "_Control"
+msgstr "_Juhtimine"
+
+msgid "_Help"
+msgstr "A_bi"
+
+msgid "Start a new game"
+msgstr "Uue mängu alustamine"
+
+msgid "Restart the game"
+msgstr "Käesoleva mängu taasalustamine"
+
+msgid "_Select Game..."
+msgstr "_Vali mäng..."
+
+msgid "Play a different game"
+msgstr "Mõne muu mängu mängimine"
+
+msgid "_Recently Played"
+msgstr "_Viimati mängitud"
+
+msgid "S_tatistics"
+msgstr "S_tatistika"
+
+msgid "Show gameplay statistics"
+msgstr "Mängustatistika kuvamine"
+
+msgid "Close this window"
+msgstr "Selle akna sulgemine"
+
+msgid "Undo the last move"
+msgstr "Viimase käigu unustamine"
+
+msgid "Redo the undone move"
+msgstr "Unustatud käigu uuestitegemine"
+
+msgid "Deal next card or cards"
+msgstr "Järgmise kaardi või järgmiste kaartide jagamine"
+
+msgid "Get a hint for your next move"
+msgstr "Vihje järgmise käigu tegemiseks"
+
+msgid "View help for Aisleriot"
+msgstr "Abiteabe kuvamine Aisleriot'i kohta"
+
+msgid "View help for this game"
+msgstr "Abiteabe kuvamine selle mängu kohta"
+
+msgid "About this game"
+msgstr "Mängust lähemalt"
+
+msgid "Install card themes…"
+msgstr "Kaarditeemade paigaldamine…"
+
+msgid "Install new card themes from the distribution packages repositories"
+msgstr "Kaarditeemade paigaldamine distributsioonipakkide hoidlatest"
+
+msgid "_Card Style"
+msgstr "Kaartide _laad"
+
+msgid "_Toolbar"
+msgstr "Töö_riistariba"
+
+msgid "Show or hide the toolbar"
+msgstr "Tööriistariba näitamine või peitmine"
+
+msgid "_Statusbar"
+msgstr "_Olekuriba"
+
+msgid "Show or hide statusbar"
+msgstr "Olekuriba näitamine või peitmine"
+
+msgid "_Click to Move"
+msgstr "Tõsmine _klõpsu abil"
+
+msgid "Pick up and drop cards by clicking"
+msgstr "Kaardi tõstmine ja asetamine klõpsu abil"
+
+msgid "_Sound"
+msgstr "_Heli"
+
+msgid "Whether or not to play event sounds"
+msgstr "Kas helisid esitatakse või mitte"
+
+msgid "_Animations"
+msgstr "_Animatsioonid"
+
+msgid "Whether or not to animate card moves"
+msgstr "Kas kaardikäikudel kasutatakse animatsiooni või mitte"
+
+msgid "Score:"
+msgstr "Tulemus:"
+
+msgid "Time:"
+msgstr "Aeg:"
+
+#, c-format
+msgid "Cannot start the game “%s”"
+msgstr "Mängu „%s” pole võimalik alustada"
+
+#. Translators: this is the symbol that's on a Joker card
+msgctxt "card symbol"
+msgid "JOKER"
+msgstr "JOKKER"
+
+#. Translators: this is the symbol that's on an Ace card
+msgctxt "card symbol"
+msgid "A"
+msgstr ""
+
+#. Translators: this is the symbol that's on a 2 card
+msgctxt "card symbol"
+msgid "2"
+msgstr "2"
+
+#. Translators: this is the symbol that's on a 3 card
+msgctxt "card symbol"
+msgid "3"
+msgstr "3"
+
+#. Translators: this is the symbol that's on a 4 card
+msgctxt "card symbol"
+msgid "4"
+msgstr "4"
+
+#. Translators: this is the symbol that's on a 5 card
+msgctxt "card symbol"
+msgid "5"
+msgstr "5"
+
+#. Translators: this is the symbol that's on a 6 card
+msgctxt "card symbol"
+msgid "6"
+msgstr "6"
+
+#. Translators: this is the symbol that's on a 7 card
+msgctxt "card symbol"
+msgid "7"
+msgstr "7"
+
+#. Translators: this is the symbol that's on a 8 card
+msgctxt "card symbol"
+msgid "8"
+msgstr "8"
+
+#. Translators: this is the symbol that's on a 9 card
+msgctxt "card symbol"
+msgid "9"
+msgstr "9"
+
+#. Translators: this is the symbol that's on a Jack card
+msgctxt "card symbol"
+msgid "J"
+msgstr ""
+
+#. Translators: this is the symbol that's on a Queen card
+msgctxt "card symbol"
+msgid "Q"
+msgstr ""
+
+#. Translators: this is the symbol that's on a King card
+msgctxt "card symbol"
+msgid "K"
+msgstr ""
+
+#. Translators: this is the symbol that's on a 1 card
+msgctxt "card symbol"
+msgid "1"
+msgstr "1"
+
+#| msgid "the ace of clubs"
+msgid "ace of clubs"
+msgstr "risti äss"
+
+#| msgid "the two of clubs"
+msgid "two of clubs"
+msgstr "risti kaks"
+
+#| msgid "the three of clubs"
+msgid "three of clubs"
+msgstr "risti kolm"
+
+#| msgid "the four of clubs"
+msgid "four of clubs"
+msgstr "risti neli"
+
+#| msgid "the five of clubs"
+msgid "five of clubs"
+msgstr "risti viis"
+
+#| msgid "the six of clubs"
+msgid "six of clubs"
+msgstr "risti kuus"
+
+#| msgid "the seven of clubs"
+msgid "seven of clubs"
+msgstr "risti seitse"
+
+msgid "eight of clubs"
+msgstr "risti kaheksa"
+
+msgid "nine of clubs"
+msgstr "risti üheksa"
+
+#| msgid "the ten of clubs"
+msgid "ten of clubs"
+msgstr "risti kümme"
+
+#| msgid "the jack of clubs"
+msgid "jack of clubs"
+msgstr "risti soldat"
+
+#| msgid "the queen of clubs"
+msgid "queen of clubs"
+msgstr "risti emand"
+
+#| msgid "the king of clubs"
+msgid "king of clubs"
+msgstr "risti kuningas"
+
+#| msgid "the ace of diamonds"
+msgid "ace of diamonds"
+msgstr "ruutu äss"
+
+#| msgid "the two of diamonds"
+msgid "two of diamonds"
+msgstr "ruutu kaks"
+
+#| msgid "the three of diamonds"
+msgid "three of diamonds"
+msgstr "ruutu kolm"
+
+#| msgid "the four of diamonds"
+msgid "four of diamonds"
+msgstr "ruutu neli"
+
+#| msgid "the five of diamonds"
+msgid "five of diamonds"
+msgstr "ruutu viis"
+
+#| msgid "the six of diamonds"
+msgid "six of diamonds"
+msgstr "ruutu kuus"
+
+#| msgid "the seven of diamonds"
+msgid "seven of diamonds"
+msgstr "ruutu seitse"
+
+msgid "eight of diamonds"
+msgstr "ruutu kaheksa"
+
+msgid "nine of diamonds"
+msgstr "ruutu üheksa"
+
+#| msgid "the ten of diamonds"
+msgid "ten of diamonds"
+msgstr "ruutu kümme"
+
+#| msgid "the jack of diamonds"
+msgid "jack of diamonds"
+msgstr "ruutu soldat"
+
+#| msgid "the queen of diamonds"
+msgid "queen of diamonds"
+msgstr "ruutu emand"
+
+#| msgid "the king of diamonds"
+msgid "king of diamonds"
+msgstr "ruutu kuningas"
+
+#| msgid "the ace of hearts"
+msgid "ace of hearts"
+msgstr "ärtu äss"
+
+#| msgid "the two of hearts"
+msgid "two of hearts"
+msgstr "ärtu kaks"
+
+#| msgid "the three of hearts"
+msgid "three of hearts"
+msgstr "ärtu kolm"
+
+#| msgid "the four of hearts"
+msgid "four of hearts"
+msgstr "ärtu neli"
+
+#| msgid "the five of hearts"
+msgid "five of hearts"
+msgstr "ärtu viis"
+
+#| msgid "the six of hearts"
+msgid "six of hearts"
+msgstr "ärtu kuus"
+
+#| msgid "the seven of hearts"
+msgid "seven of hearts"
+msgstr "ärtu seitse"
+
+msgid "eight of hearts"
+msgstr "ärtu kaheksa"
+
+msgid "nine of hearts"
+msgstr "ärtu üheksa"
+
+#| msgid "the ten of hearts"
+msgid "ten of hearts"
+msgstr "ärtu kümme"
+
+#| msgid "the jack of hearts"
+msgid "jack of hearts"
+msgstr "ärtu soldat"
+
+#| msgid "the queen of hearts"
+msgid "queen of hearts"
+msgstr "ärtu emand"
+
+#| msgid "the king of hearts"
+msgid "king of hearts"
+msgstr "ärtu kuningas"
+
+#| msgid "the ace of spades"
+msgid "ace of spades"
+msgstr "poti äss"
+
+#| msgid "the two of spades"
+msgid "two of spades"
+msgstr "poti kaks"
+
+#| msgid "the three of spades"
+msgid "three of spades"
+msgstr "poti kolm"
+
+#| msgid "the four of spades"
+msgid "four of spades"
+msgstr "poti neli"
+
+#| msgid "the five of spades"
+msgid "five of spades"
+msgstr "poti viis"
+
+#| msgid "the six of spades"
+msgid "six of spades"
+msgstr "poti kuus"
+
+#| msgid "the seven of spades"
+msgid "seven of spades"
+msgstr "poti seitse"
+
+msgid "eight of spades"
+msgstr "poti kaheksa"
+
+msgid "nine of spades"
+msgstr "poti üheksa"
+
+#| msgid "the ten of spades"
+msgid "ten of spades"
+msgstr "poti kümme"
+
+#| msgid "the jack of spades"
+msgid "jack of spades"
+msgstr "poti soldat"
+
+#| msgid "the queen of spades"
+msgid "queen of spades"
+msgstr "poti emand"
+
+#| msgid "the king of spades"
+msgid "king of spades"
+msgstr "poti kuningas"
+
+#| msgid "the unknown card"
+msgid "face-down card"
+msgstr "näoga allapoole kaart"
+
+msgid "Base Card: Ace"
+msgstr "Aluskaart: Äss"
+
+msgid "Base Card: Jack"
+msgstr "Aluskaart: Soldat"
+
+msgid "Base Card: King"
+msgstr "Aluskaart: Kuningas"
+
+msgid "Base Card: Queen"
+msgstr "Aluskaart: Emand"
+
+msgid "Base Card: ~a"
+msgstr "Aluskaart: ~a"
+
+msgid "Deal more cards"
+msgstr "Jaga veel kaarte"
+
+msgid "Stock left:"
+msgstr "Varu jäänud:"
+
+msgid "Stock left: 0"
+msgstr "Varu jäänud: 0"
+
+msgid "Try rearranging the cards"
+msgstr "Proovige kaarte ümber paigutada"
+
+msgid "an empty foundation pile"
+msgstr "tühi alusvirn"
+
+msgid "Three card deals"
+msgstr "Jagamine kolme kaardi kaupa"
+
+msgid "Deal another round"
+msgstr "Uus ring"
+
+msgid "Deal a new card from the deck"
+msgstr "Tõmba pakist uus kaart"
+
+msgid "Redeals left:"
+msgstr "Jagamisi jäänud:"
+
+msgid "an empty slot on the foundation"
+msgstr ""
+
+msgid "an empty slot on the tableau"
+msgstr ""
+
+msgid "an empty foundation"
+msgstr ""
+
+msgid "Base Card: "
+msgstr "Aluskaart: "
+
+msgid "Move something onto an empty right-hand tableau slot"
+msgstr ""
+
+msgid "an empty foundation slot"
+msgstr ""
+
+msgid "an empty bottom slot"
+msgstr "alumise tühja koha"
+
+msgid "an empty corner slot"
+msgstr "tühi nurgakoht"
+
+msgid "an empty left slot"
+msgstr "vasakpoolse tühja koha"
+
+msgid "an empty right slot"
+msgstr "parempoolse tühja koha"
+
+msgid "an empty slot"
+msgstr "tühja koha"
+
+msgid "an empty top slot"
+msgstr "ülemise tühja koha"
+
+msgid "itself"
+msgstr "ise"
+
+msgid "Move waste back to stock"
+msgstr "Tõsta ülejääk pakki tagasi"
+
+msgid "Reserve left:"
+msgstr "Pakki jäänud:"
+
+msgid "empty slot on foundation"
+msgstr "alusel oleva tühja koha"
+
+msgid "empty space on tableau"
+msgstr "tableau tühja ruumi"
+
+msgid "Move a card to the Foundation"
+msgstr ""
+
+msgid "Move something into the empty Tableau slot"
+msgstr ""
+
+msgid "Consistency is key"
+msgstr "Järjekindlus viib sihile"
+
+msgid "Fishing wire makes bad dental floss"
+msgstr "Õngenöör on hambaniidina halb"
+
+msgid "Have you read the help file?"
+msgstr "Olete Te lugenud dokumentatsiooni?"
+
+msgid "I could sure use a backrub right about now..."
+msgstr ""
+
+msgid "If you're ever lost and alone in the woods, hug a tree"
+msgstr "Kui Te iganes kunagi metsa eksite, emmake puud"
+
+msgid ""
+"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
+msgstr ""
+"See, et ülekäigurada näeb välja nagu keksuplats, ei tähenda, et ta seda oleks"
+
+msgid "Look both ways before you cross the street"
+msgstr "Enne tänava ületamist vaadake mõlemale poole"
+
+msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+msgstr "Monitorid ei anna Teile D-vitamiini, päike aga küll..."
+
+msgid "Never blow in a dog's ear"
+msgstr "Ära iial puhu koerale kõrva"
+
+msgid "Odessa is a better game.  Really."
+msgstr "Odessa on parem mäng. uskuge mind."
+
+msgid "Tourniquets are not recommended unless in the direst emergency"
+msgstr "ZHgutti pole soovitav kasutada muidu, kui ainult äärmisel vajadusel"
+
+msgid "When without a stapler, a staple and a ruler will work"
+msgstr "Kui klambrilööjat pole, saab hakkama ka klambri ja joonlauaga"
+
+msgid "Cards remaining: ~a"
+msgstr "Kaarte jäänud: ~a"
+
+msgid "Redeal."
+msgstr "Jaga uuesti."
+
+msgid "the foundation pile"
+msgstr "alusvirn"
+
+msgid "Deal a card"
+msgstr "Tõmbab kaarti"
+
+msgid "Move ~a to an empty foundation"
+msgstr ""
+
+msgid "an empty slot on tableau"
+msgstr "tableau tühja koha"
+
+msgid "Move a King on to the empty tableau slot"
+msgstr ""
+
+msgid "No hint available right now"
+msgstr "Vihjet pole hetkel võimalik anda"
+
+msgid "Move something on to an empty reserve"
+msgstr ""
+
+msgid "an empty tableau"
+msgstr ""
+
+msgid "I'm not sure"
+msgstr "Ma pole kindel"
+
+msgid "Remove the aces"
+msgstr "Eemalda ässad"
+
+msgid "Remove the eights"
+msgstr "Eemalda kaheksad"
+
+msgid "Remove the fives"
+msgstr "Eemalda viied"
+
+msgid "Remove the fours"
+msgstr "Eemalda neljad"
+
+msgid "Remove the jacks"
+msgstr "Eemalda soldatid"
+
+msgid "Remove the kings"
+msgstr "Eemalda kuningad"
+
+msgid "Remove the nines"
+msgstr "Eemalda üheksad"
+
+msgid "Remove the queens"
+msgstr "Eemalda emandad"
+
+msgid "Remove the sevens"
+msgstr "Eemalda seitsmed"
+
+msgid "Remove the sixes"
+msgstr "Eemalda kuued"
+
+msgid "Remove the tens"
+msgstr "Eemalda kümned"
+
+msgid "Remove the threes"
+msgstr "Eemalda kolmed"
+
+msgid "Remove the twos"
+msgstr "Eemalda kahed"
+
+msgid "Return cards to stock"
+msgstr ""
+
+msgid "Consider moving something into an empty slot"
+msgstr "Proovige tõsta midagi tyhjale kohale"
+
+msgid "Move ~a off the board"
+msgstr ""
+
+msgid "Bug! make-hint called on false move."
+msgstr ""
+
+msgid "Deal a card from stock"
+msgstr ""
+
+msgid "an empty space"
+msgstr ""
+
+msgid "No moves are possible. Undo or start again."
+msgstr "Ükski käik pole võimalik. Tühista mõni käik või alusta uuesti."
+
+msgid "The game has no solution. Undo or start again."
+msgstr "Mängul pole lahendust. Tühista mõni käik või alusta uuesti."
+
+msgid "an empty reserve"
+msgstr "tühja varupesa"
+
+msgid "an open tableau"
+msgstr "lahtise virnaaluse"
+
+msgid "the foundation"
+msgstr "alusvirna"
+
+msgid "Add to the sequence in row ~a."
+msgstr ""
+
+msgid "Double click any card to redeal."
+msgstr "Uuestijagamiseks tee mõnel kaardil topeltklõps."
+
+msgid "No hint available."
+msgstr "Hetkel pole ühtegi vihjet."
+
+msgid "Place a two in the leftmost slot of row ~a."
+msgstr ""
+
+msgid "Place the ~a next to ~a."
+msgstr ""
+
+msgid "Randomly Placed Gaps on Redeal"
+msgstr ""
+
+msgid "Alternating colors"
+msgstr ""
+
+msgid "Deal a row"
+msgstr ""
+
+msgid "Deals left: ~a"
+msgstr ""
+
+msgid "Same suit"
+msgstr ""
+
+msgid "Try dealing a row of cards"
+msgstr ""
+
+msgid "Try moving a card to the reserve"
+msgstr ""
+
+msgid "Try moving card piles around"
+msgstr "Proovi kaardivirnad ringi tõsta"
+
+msgid "an empty foundation place"
+msgstr ""
+
+msgid "an empty tableau place"
+msgstr ""
+
+msgid "Move a card from the reserve on to the empty tableau slot"
+msgstr ""
+
+msgid "Select a card from the reserve for first foundation pile"
+msgstr ""
+
+msgid "on to the empty tableau slot"
+msgstr ""
+
+msgid "Deal another card"
+msgstr "Tõmbab uue kaardi"
+
+msgid "Stock left: ~a"
+msgstr "Varu jäänud: ~a"
+
+msgid "Deal another hand"
+msgstr ""
+
+msgid "Move a card or build of cards on to the empty slot"
+msgstr ""
+
+msgid "Move card from waste"
+msgstr ""
+
+msgid "Move waste to stock"
+msgstr ""
+
+msgid "an empty tableau slot"
+msgstr ""
+
+msgid "Deal a new card"
+msgstr "Tõmba uus kaart"
+
+msgid "Stock remaining: ~a"
+msgstr "Varu jäänud: ~a"
+
+msgid "No redeals"
+msgstr "Ilma uuestijagamiseta"
+
+msgid "Single card deals"
+msgstr "Jagamine ühe kaardi kaupa"
+
+msgid "Try moving cards down from the foundation"
+msgstr "Proovige kaarte aluselt ära tõsta"
+
+msgid "Base Card:"
+msgstr "Aluskaart:"
+
+msgid ""
+"Aim to place the suits in the order which fits the current layout most "
+"naturally."
+msgstr ""
+
+msgid "Deal new cards from the deck"
+msgstr "Tõmba pakist uued kaardid"
+
+msgid "Redeals left: ~a"
+msgstr "Jagamisi jäänud: ~a"
+
+msgid "something"
+msgstr "miski"
+
+msgid "Move ~a from the stock to an empty edge or tableau slot"
+msgstr ""
+
+msgid "Move ~a to an empty field"
+msgstr ""
+
+msgid "Place cards on to the Tableau to form poker hands"
+msgstr ""
+
+msgid "Shuffle mode"
+msgstr ""
+
+msgid "an empty tableau pile"
+msgstr ""
+
+msgid "Deal the cards"
+msgstr "Jaga kaardid"
+
+msgid "Reshuffle cards"
+msgstr "Sega kaardid"
+
+msgid "Move waste on to a reserve slot"
+msgstr ""
+
+msgid "empty foundation"
+msgstr ""
+
+msgid "Four Suits"
+msgstr ""
+
+msgid "One Suit"
+msgstr ""
+
+msgid "Place something on empty slot"
+msgstr "Pane midagi tühjale kohale"
+
+msgid "Please fill in empty pile first."
+msgstr "Täida kõigepealt tühi virn"
+
+msgid "Two Suits"
+msgstr ""
+
+msgid "Undo until there are enough cards to fill all tableau piles"
+msgstr ""
+
+msgid "Allow temporary spots use"
+msgstr ""
+
+msgid "Move a card to an empty temporary slot"
+msgstr "Tõsta kaart ajutisele tühjale kohale"
+
+msgid "No hint available"
+msgstr "Vihjeid ei ole"
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Blondes and Brunettes"
+msgstr "Blondid ja brünetid"
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Falling Stars"
+msgstr "Langevad tähed"
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "General's Patience"
+msgstr ""
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Redheads"
+msgstr "Punapead"
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Signora"
+msgstr "Signora"
+
+#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
+msgid "Wood"
+msgstr "Puu"
+
+msgid "Deal a card from the deck"
+msgstr "Tõmba pakist kaart"
+
+msgid "Match the top two cards of the waste."
+msgstr ""
+
+msgid "Multiplier Scoring"
+msgstr ""
+
+msgid "Progressive Rounds"
+msgstr ""
+
+msgid "appropriate foundation pile"
+msgstr ""
+
+msgid "Move a build of cards on to the empty Tableau slot"
+msgstr ""
+
+msgid "the appropriate Foundation pile"
+msgstr "sobiv alusvirn"
+
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: võti `%s' pole üheselt mõistetav\n"
+
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: võtmel `--%s' ei tohi olla argumente\n"
+
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: võtmel `%c%s' ei tohi olla argumente\n"
+
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: võtmel `--%s' peab olema argument\n"
+
+#. --option
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: tundmatu võti `--%s'\n"
+
+#. +option or -option
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: tundmatu võti `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: lubamatu võti -- %c\n"
+
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: vigane võti -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: võti vajab argumenti -- %c\n"
+
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: võti `-W %s' pole üheselt mõistetav\n"
+
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: võtmel `-W %s' ei tohi olla argumente\n"
+
+msgid "A flag to allow remote players to watch new games"
+msgstr "Kui märgitud, siis on kaugmängijatel lubatud uusi mänge vaadata"
+
+msgid "A flag to enable 3D mode"
+msgstr "Kolmemõõtmelise režiimi lubamine või keelamine"
+
+msgid "A flag to enable board numbering"
+msgstr "Laua nummerdamise lubamine või keelamine"
+
+msgid "A flag to enable fullscreen mode"
+msgstr "Täisekraanirežiimi lubamine või keelamine"
+
+msgid "A flag to enable maximised mode"
+msgstr "Kui märgitud, siis mäng käivitatakse maksimeeritud režiimis"
+
+msgid "A flag to enable move hints"
+msgstr "Käikudele vihjete kuvamine või kuvamise keelamine"
+
+msgid "A flag to enable network game support"
+msgstr "Võrgumängu toe lubamine"
+
+msgid "A flag to enable the move history browser"
+msgstr "Ajaloo sirvimise lubamine või keelamine"
+
+msgid "A flag to enable the toolbar"
+msgstr "Tööriistariba näitamine või peitmine"
+
+msgid "A flag to show move comments"
+msgstr "Kui märgitud, siis näidatakse käikude juurde ka kommentaare"
+
+msgid "A flag to smooth (anti-alias) the 3D display"
+msgstr ""
+
+msgid "The amount of time each player has to move in new games"
+msgstr "Uutes mängudes igale mängijale käigu jaoks eraldatud aeg"
+
+msgid "The board side to display"
+msgstr "Kummalt poolt mängulauda kuvatakse"
+
+msgid "The default player difficulty for black in new games"
+msgstr "Mustadega mängija vaikimisi tase uute mängude jaoks"
+
+msgid "The default player difficulty for white in new games"
+msgstr "Valgetega mängija vaikimisi tase uute mängude jaoks"
+
+msgid "The default player type for black in new games"
+msgstr "Mustadega mängija vaikimisi liik uute mängude jaoks"
+
+msgid "The default player type for white in new games"
+msgstr "Valgetega mängija vaikimisi liik uute mängude jaoks"
+
+msgid "The directory to open the load game dialog in"
+msgstr "Mängude laadimiseks avatav kataloog"
+
+msgid "The directory to open the save game dialog in"
+msgstr "Mängude salvestamiseks avatav kataloog"
+
+msgid "The format to display moves in"
+msgstr "Käikude kuvamise vorming"
+
+msgid ""
+"The format to display moves in, can be either 'human' (human readable), "
+"'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+msgstr ""
+"Vorming, milles käike kuvatakse. Võimalikud variandid on "
+"'human' (inimloetav), 'lan' (pikk algebraline notatsioon) or "
+"'san' (standardne algebraline notatsioon)"
+
+msgid "The height of the main window in pixels."
+msgstr "Peaakna kõrgus pikslites."
+
+msgid "The height of the window"
+msgstr "Akna kõrgus"
+
+msgid "The piece to promote pawns to"
+msgstr ""
+
+msgid ""
+"The piece to promote to when a human player moves a pawn to the far rank. "
+"Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+msgstr ""
+
+msgid ""
+"The side of the board that is in the foreground, either 'white', 'black', "
+"'current' (the current player), 'human' (the side of the current human "
+"player) or 'facetoface' (suitable for players on each side of screen, e.g. "
+"handhelds)"
+msgstr ""
+"Mängulaua pool, mille suunast vaadet kuvatakse. Väärtusteks võivad olla kas "
+"'white' (valgete pool), 'black' (mustade pool), 'current' (käesolev mängija "
+"pool), 'human' (käesoleva inimmängija pool) või 'facetoface' (sobiv "
+"mängijatele, kes asuvad ekraani eri külgedel, näiteks mõnede pihuarvutite "
+"puhul)"
+
+msgid "The width of the main window in pixels."
+msgstr "Peaakna laius pikslites."
+
+msgid "The width of the window"
+msgstr "Akna laius"
+
+#. Preferences Dialog: Check box for selecting if 3D view is available
+msgid "3_D Chess View"
+msgstr "Malelaua _kolmemõõtmeline vaade"
+
+msgid "Claim _Draw"
+msgstr "Paku _viiki"
+
+msgid "Load a saved game"
+msgstr "Salvestatud mängu laadimine"
+
+#. The title of the log dialaog
+msgid "Logs"
+msgstr "Logid"
+
+#. The Network Game toolbar button
+msgid "Network _Game"
+msgstr "Võr_gumäng"
+
+#. The New Game toolbar button
+#. Title of the new game dialog
+msgid "New Game"
+msgstr "Uus mäng"
+
+#. The tooltip for the Resign toolbar button
+msgid "Resign"
+msgstr "Anna alla"
+
+msgid "Rewind to the game start"
+msgstr ""
+
+msgid "Save the current game"
+msgstr "Käesoleva mängu salvestamine"
+
+msgid "Show _Logs"
+msgstr "Näita _logisid"
+
+msgid "Show the current move"
+msgstr "Käesoleva käigu näitamine"
+
+msgid "Show the next move"
+msgstr "Järgmise käigu näitamine"
+
+msgid "Show the previous move"
+msgstr "Eelmise käigu näitamine"
+
+msgid "Start a new multiplayer network game"
+msgstr "Uue, mitme mängijaga võrgumängu alustamine"
+
+#. Message displayed in log window when no logs are present
+msgid "There are no active logs."
+msgstr "Aktiivseid logisid ei ole."
+
+msgid "Undo Move"
+msgstr "Tühista käik"
+
+msgid "_Contents"
+msgstr "_Sisukord"
+
+msgid "_Resign"
+msgstr "_Alistu"
+
+msgid "_Settings"
+msgstr "_Sätted"
+
+msgid "_Undo Move"
+msgstr "_Tühista käik"
+
+#. Title of load game dialog
+msgid "Load Chess Game"
+msgstr "Malemängu laadimine"
+
+#. Log window: Title above data being logged
+msgid "Communication:"
+msgstr "Suhtlus:"
+
+#. Log window: Label before name of executable being logged
+msgid "Executable:"
+msgstr "Programm:"
+
+#. Log window: Label before name of player being logged
+msgid "Playing as:"
+msgstr "Mängib kui:"
+
+#. Network Game Dialog: Title above the game settings. Do not translate the <b> tag.
+msgid "<b>Game</b>"
+msgstr "<b>Mäng</b>"
+
+#. Network Game Dialog: Title above room list. Do not translate the <b> tag.
+msgid "<b>Rooms</b>"
+msgstr "<b>Toad</b>"
+
+#. Network Game Dialog: Title above the server settings. Do not translate the <b> tag.
+msgid "<b>Server</b>"
+msgstr "<b>Server</b>"
+
+#. Network Game Dialog: Title above the chat text. Do not translate the <b> tag.
+msgid "<b>Status/_Chat</b>"
+msgstr "<b>Olek/_vestlus</b>"
+
+#. Title of network game dialog
+msgid "Join Game"
+msgstr "Mänguga ühinemine"
+
+#. Network Game Dialog: Button to join a table
+msgid "_Join"
+msgstr "Ü_hine"
+
+#. Network Game Dialog: Leave table button
+msgid "_Leave"
+msgstr "_Lahku"
+
+#. Network Game Dialog: Label before the server profile combo box
+msgid "_Profile:"
+msgstr "_Profiil:"
+
+msgid "Add Account"
+msgstr "Konto lisamine"
+
+#. Add Network Profile Dialog: Label beside username entry
+msgid "User _Name:"
+msgstr "Kasutaja _nimi:"
+
+#. Add Network Profile Dialog: Button to accept values and add profile
+msgid "_Add Account"
+msgstr "Lisa _konto"
+
+#. Add Network Profile Dialog: Label beside custom hostname entry
+msgid "_Host:"
+msgstr "_Host"
+
+#. Add Network Profile Dialog: Label beside custom port entry
+msgid "_Port:"
+msgstr "_Port:"
+
+#. Add Network Profile Dialog: Label beside server combo
+msgid "_Server:"
+msgstr "_Server:"
+
+#. New Game Dialog: Title above difficulty options
+msgid "<b>Difficulty</b>"
+msgstr "<b>Raskusaste</b>"
+
+#. New Game Dialog: Title above the game properties widgets
+msgid "<b>Game Properties</b>"
+msgstr "<b>Mängu omadused</b>"
+
+#. New Game Dialog: Title above player options
+msgid "<b>Players</b>"
+msgstr "<b>Mängijad</b>"
+
+#. New Game Dialog: Label before black player difficulty
+msgid "B_lack:"
+msgstr "_Must:"
+
+msgid "Enter the title for this game"
+msgstr "Sisesta selle mängu pealkiri"
+
+#. New Game Dialog: Label before game timer settings
+msgid "Move _Time:"
+msgstr "Käigu ae_g:"
+
+msgid "Start the game. The game can be started once all fields are complete"
+msgstr ""
+
+#. New Game Dialog: Label before white player difficulty
+msgid "W_hite:"
+msgstr "_Valge:"
+
+#. New Game Dialog: Label before black player combo box
+msgid "_Black:"
+msgstr "Mus_t:"
+
+#. New Game Dialog: Label before the game name entry
+msgid "_Game name:"
+msgstr "Mängu _nimi:"
+
+#. New Game Dialog: Button to start a new game
+msgid "_Start"
+msgstr "_Alusta"
+
+#. New Game Dialog: Label before white player combo box
+msgid "_White:"
+msgstr "Val_ge:"
+
+#. Preferences Dialog: Label before board orientation combo box
+msgid "Board Orientation:"
+msgstr "Mängulaua suund:"
+
+#. Preferences Dialog: Label before move format combo box
+msgid "Move Format:"
+msgstr "Käikude vorming:"
+
+#. Title for preferences dialog
+msgid "Preferences"
+msgstr "Eelistused"
+
+#. Preferences Dialog: Label before promotion type combo box
+msgid "Promotion Type:"
+msgstr "Lipustamise moodus:"
+
+#. Preferences Dialog: Check box for selecting if history browser is visible
+msgid "Show _History"
+msgstr "_Ajalugu on nähtaval"
+
+#. Preferences Dialog: Check box for selecting if toolbar is visible
+msgid "Show _Toolbar"
+msgstr "_Tööriistariba on nähtaval"
+
+msgid "Show or hide numbering on the chess board"
+msgstr "Malelaua numeratsiooni näitamine või peitmine"
+
+msgid "Show or hide the game history panel"
+msgstr "Mängu ajaloopaneeli näitamine või peitmine"
+
+msgid "Shows hints during chess games"
+msgstr "Malemängu ajal vihjete näitamine"
+
+msgid "Smooth edges of the 3D elements (anti-alias)"
+msgstr ""
+
+msgid ""
+"View the chess board by default in 2D mode, or optionally in 3D mode using "
+"OpenGL."
+msgstr ""
+"Malelaua vaatamine vaikimisi kahemõõtmelisena, või valikulisena "
+"kolmemõõtmelisena (OpenGL'i abil)."
+
+#. Preferences Dialog: Check box for selecting if board numbering is visible
+msgid "_Board Numbering"
+msgstr "Malelaud on _nummerdatud"
+
+#. Preferences Dialog: Check box for selecting if move hints are visible
+msgid "_Move Hints"
+msgstr "Käikude kohta näidatakse vi_hjed"
+
+#. Preferences Dialog: Check box for selecting if the 3D view is smoothed (anti-aliased)
+msgid "_Smooth Display"
+msgstr "_Pehmendatud kuvamine"
+
+#. Title of save game dialog
+msgid "Save Chess Game"
+msgstr "Malemängu salvestamine"
+
+#. Translators: Window title when not playing a game
+msgid "Chess"
+msgstr "Male"
+
+msgid "Play the classic two-player boardgame of chess"
+msgstr "Klassikalise malemängu mängimine "
+
+msgid "Chess incorrectly installed"
+msgstr "Male pole korrektselt paigaldatud"
+
+msgid ""
+"Chess is not able to start because required application files are not "
+"installed. If you are currently upgrading your system please wait until the "
+"upgrade has completed."
+msgstr ""
+
+#. Translators: Time Combo: There is no time limit
+msgid "Unlimited"
+msgstr "Piiramatu"
+
+#. Translators: Time Combo: Game will last one minute
+msgid "One minute"
+msgstr "Üks minut"
+
+#. Translators: Time Combo: Game will last five minutes
+msgid "Five minutes"
+msgstr "Viis minutit"
+
+#. Translators: Time Combo: Game will last 30 minutes
+msgid "30 minutes"
+msgstr "Pool tundi"
+
+#. Translators: Time Combo: Game will last one hour
+msgid "One hour"
+msgstr "Üks tund"
+
+#. Translators: Time Combo: User will configure game duration
+#. Translators: Add Network Profile Dialog: Use a custom server
+msgid "Custom"
+msgstr "Kohandatud"
+
+#. Translators: Custom Time Combo: User specifying number of seconds for game duration
+msgid "seconds"
+msgstr "sekundit"
+
+#. Translators: Custom Time Combo: User specifying number of minutes for game duration
+msgid "minutes"
+msgstr "minutit"
+
+#. Translators: Custom Time Combo: User specifying number of hours for game duration
+msgid "hours"
+msgstr "tundi"
+
+#. Translators: AI Difficulty Combo: AI set to easy difficulty
+msgid "Easy"
+msgstr "Lihtne"
+
+#. Translators: AI Difficulty Combo: AI set to normal diffuculty
+msgid "Normal"
+msgstr "Tavaline"
+
+#. Translators: AI Difficulty Combo: AI set to hard diffuculty
+msgid "Hard"
+msgstr "Raske"
+
+#. Translators: Error displayed when unable to load a game due to
+#. the require game engine not being available. %s is replaced with
+#. the name of the missing engine.
+#, python-format
+msgid "Unable to find %s engine"
+msgstr "Mootorit %s pole võimalik leida"
+
+#. Translators: New Game Dialog: Title of the dialog when continuing a loaded game
+#, python-format
+msgid "Configure loaded game (%i moves)"
+msgstr "Laaditud mängu seadistamine (%i käiku)"
+
+#. Translators: New Game Dialog: Title of error box when loaded game had AI engines missing
+msgid "Game settings changed"
+msgstr "Mängu sätted on muudetud"
+
+#. Translators: Default name for a new game. %(white) and %(black) are substituted for the names of the white and black players.
+#, python-format
+msgid "%(white)s versus %(black)s"
+msgstr "%(white)s -- %(black)s"
+
+#. Translators: Default name for the white player
+#. Translators: GGZ seat is occupied by the white player
+#. Translators: Name of white player in a default game
+msgid "White"
+msgstr "Valge"
+
+#. Translators: Default name for the black player
+#. Translators: GGZ seat is occupied by the black player
+#. Translators: Name of black player in a default game
+msgid "Black"
+msgstr "Must"
+
+#. Translators: Load Game Dialog: Name of filter to show only PGN files
+#. Translators: Save Game Dialog: Name of filter to show only PGN files
+msgid "PGN files"
+msgstr "PGN-failid"
+
+#. Translators: Load Game Dialog: Name of filter to show all files
+#. Translators: Save Game Dialog: Name of filter to show all files
+msgid "All files"
+msgstr "Kõik failid"
+
+#. Translators: Load Game Dialog: Message displayed when no file is selected
+msgid "Please select a file to load"
+msgstr "Palun vali laaditav fail"
+
+#. Translators: Title of error box when unable to load game
+msgid "Unabled to load game"
+msgstr "Mängu pole võimalik laadida"
+
+#. Translators: Save Game Dialog: Error displayed when no file name entered
+msgid "Please enter a file name"
+msgstr "Palun sisesta faili nimi"
+
+#. Translators: Save Game Dialog: Error title when unable to save game
+msgid "Unabled to save game"
+msgstr "Mängu pole võimalik salvestada"
+
+#. Translators: Move Format Combo: Moves shown in human descriptive notation
+#. Translators: Player Type Combo: Player is human controlled
+msgid "Human"
+msgstr "Inimene"
+
+#. Translators: Move Format Combo: Moves shown in standard algebraic notation (SAN)
+msgid "Standard Algebraic"
+msgstr "Standardne algebraline"
+
+#. Translators: Move Format Combo: Moves shown in standard figurine algebraic notation (FAN)
+msgid "Figurine"
+msgstr ""
+
+#. Translators: Move Format Combo: Moves shown in long algebraic notation (LAN)
+msgid "Long Algebraic"
+msgstr "Pikk algebraline"
+
+#. Translators: Board Side Combo: Camera will face white player's side
+msgid "White Side"
+msgstr "Valgete poolelt"
+
+#. Translators: Board Side Combo: Camera will face black player's side
+msgid "Black Side"
+msgstr "Mustade poolelt"
+
+#. Translators: Board Side Combo: Camera will face human player's side
+msgid "Human Side"
+msgstr "Inimese poolelt"
+
+#. Translators: Board Side Combo: Camera will face current player's side
+msgid "Current Player"
+msgstr "Praeguse mängija poolelt"
+
+#. Translators: Board Side Combo: Board will be drawn suitable for players on each side of screen, e.g. handhelds
+msgid "Face to Face"
+msgstr "Mõlemalt poolt korraga"
+
+#. Translators: Promotion Combo: Promote to a queen
+msgctxt "chess-piece"
+msgid "Queen"
+msgstr "Lipp"
+
+#. Translators: Promotion Combo: Promote to a knight
+msgctxt "chess-piece"
+msgid "Knight"
+msgstr "Ratsu"
+
+#. Translators: Promotion Combo: Promote to a rook
+msgctxt "chess-piece"
+msgid "Rook"
+msgstr "Vanker"
+
+#. Translators: Promotion Combo: Promote to a bishop
+msgctxt "chess-piece"
+msgid "Bishop"
+msgstr "Oda"
+
+#. Translators: Window title when playing a game that needs saving
+#, python-format
+msgid "Chess - *%(game_name)s"
+msgstr "Male - *%(game_name)s"
+
+#. Translators: Window title when playing a game that is saved
+#, python-format
+msgid "Chess - %(game_name)s"
+msgstr "Male - %(game_name)s"
+
+#. Translators: Game Timer Label: Indicates that game has no time limit
+msgid "∞"
+msgstr "∞"
+
+#. Translators: Save Game Dialog: Notice that game needs saving
+msgid "If you don't save the changes to this game will be permanently lost"
+msgstr ""
+
+#. Translators: Save Game Dialog: Discard game button
+msgid "Close _without saving"
+msgstr "Sulge _ilma salvestamata"
+
+#. Translators: No 3D Dialog: Title
+msgid "Unable to enable 3D mode"
+msgstr "Kolmemõõtmelist režiimi pole võimalik lubada"
+
+#. Translators: No 3D Dialog: Notification to user that they do not have libraries required to enable 3D.
+#. %(error)s will be replaced with a list of reasons why 3D is not available.
+#, python-format
+msgid ""
+"You are unable to play in 3D mode due to the following problems:\n"
+"%(errors)s\n"
+"\n"
+"Please contact your system administrator to resolve these problems, until "
+"then you will be able to play chess in 2D mode."
+msgstr ""
+"Kolmemõõtmelist vaadet pole võimalik järgnevate probleemide tõttu kasutada:\n"
+"%(errors)s\n"
+"\n"
+"Palun võta probleemide lahendamiseks ühendust oma süsteemiülemaga. Praegu on "
+"malet siiski võimalik mängida kahemõõtmeliselt kujutatud mängulaual."
+
+#. Translators: Draw Dialog: Title
+msgid "Unable to claim draw"
+msgstr "Viigistamine pole võimalik"
+
+#. Translators: Draw Dialog: Notify user why they cannot claim draw
+msgid ""
+"You may claim a draw when:\n"
+"a) The board has been in the same state three times (Three fold repetition)\n"
+"b) Fifty moves have occurred where no pawn has moved and no piece has been "
+"captured (50 move rule)"
+msgstr ""
+"Sa võid pakkuda viiki juhul, kui:\n"
+"a) Mängulaud on kolm korda samas seisus (kolmekordne seisu kordumine);\n"
+"b) Tehtud on viiskümmend käiku, kuid ühegi etturiga pole käidud ja ühtegi "
+"nuppu pole löödud (50 käiku löömiseta)."
+
+#. TODO: This should be a pop-up dialog
+#. FIXME: This should create a pop-up dialog
+#, python-format
+msgid "Unable to display help: %s"
+msgstr "Abiteavet pole võimalik kuvada: %s"
+
+#. Translators: Error message displayed when 3D mode is not available due to no Python OpenGL libraries
+msgid "No Python OpenGL support"
+msgstr "Puudub Python'i OpenGL tugi"
+
+#. Translators: Error message displayed when 3D mode is not available due to no Python GTKGLExt libraries
+msgid "No Python GTKGLExt support"
+msgstr "Puudub Python'i GTKGLExt tugi"
+
+#. Translators: Error message displayed when 3D mode is not available due to their 3D drivers not being able to provide a suitable display mode
+msgid "OpenGL libraries do not support required display mode"
+msgstr "OpenGL'i teegid ei toeta nõutavat kuvarežiimi"
+
+#. Translators: Move History Combo: Go to the start of the game
+msgid "Game Start"
+msgstr "Mängu algus"
+
+#. Translators: Comment text when move has no comment
+msgid "No comment"
+msgstr "Kommentaare pole"
+
+#. Translators: Human Move String: Description of the white player making a long castle
+msgid "White castles long"
+msgstr "Valge teeb pika vangerduse"
+
+#. Translators: Human Move String: Description of the black player making a long castle
+msgid "Black castles long"
+msgstr "Must teeb pika vangerduse"
+
+#. Translators: Human Move String: Description of the white player making a short castle
+msgid "White castles short"
+msgstr "Valge teeb lühikese vangerduse"
+
+#. Translators: Human Move String: Description of the black player making a short castle
+msgid "Black castles short"
+msgstr "Must teeb lühikese vangerduse"
+
+#. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
+#. Translators: Human Move String: Description of a white pawn moving from %(start)s to %(end)s, e.g. 'c2 to c4'
+#, python-format
+msgid "White pawn moves from %(start)s to %(end)s"
+msgstr "Valge ettur käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White pawn at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge ettur väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White pawn at %(start)s takes the black rook at %(end)s"
+msgstr "Valge ettur väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White pawn at %(start)s takes the black knight at %(end)s"
+msgstr "Valge ettur väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White pawn at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge ettur väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White pawn at %(start)s takes the black queen at %(end)s"
+msgstr "Valge ettur väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a white rook moving from %(start)s to %(end)s, e.g. 'a1 to a5'
+#, python-format
+msgid "White rook moves from %(start)s to %(end)s"
+msgstr "Valge vanker käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White rook at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge vanker väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White rook at %(start)s takes the black rook at %(end)s"
+msgstr "Valge vanker väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White rook at %(start)s takes the black knight at %(end)s"
+msgstr "Valge vanker väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White rook at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge vanker väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White rook at %(start)s takes the black queen at %(end)s"
+msgstr "Valge vanker väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a white knight moving from %(start)s to %(end)s, e.g. 'b1 to c3'
+#, python-format
+msgid "White knight moves from %(start)s to %(end)s"
+msgstr "Valge ratsu käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White knight at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge ratsu väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White knight at %(start)s takes the black rook at %(end)s"
+msgstr "Valge ratsu väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White knight at %(start)s takes the black knight at %(end)s"
+msgstr "Valge ratsu väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White knight at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge ratsu väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White knight at %(start)s takes the black queen at %(end)s"
+msgstr "Valge ratsu väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a white bishop moving from %(start)s to %(end)s, e.g. 'f1 to b5'
+#, python-format
+msgid "White bishop moves from %(start)s to %(end)s"
+msgstr "Valge oda käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White bishop at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge oda väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White bishop at %(start)s takes the black rook at %(end)s"
+msgstr "Valge oda väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White bishop at %(start)s takes the black knight at %(end)s"
+msgstr "Valge oda väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White bishop at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge oda väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White bishop at %(start)s takes the black queen at %(end)s"
+msgstr "Valge oda väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a white queen moving from %(start)s to %(end)s, e.g. 'd1 to d4'
+#, python-format
+msgid "White queen moves from %(start)s to %(end)s"
+msgstr "Valge lipp käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White queen at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge lipp väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White queen at %(start)s takes the black rook at %(end)s"
+msgstr "Valge lipp väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White queen at %(start)s takes the black knight at %(end)s"
+msgstr "Valge lipp väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White queen at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge lipp väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White queen at %(start)s takes the black queen at %(end)s"
+msgstr "Valge lipp väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a white king moving from %(start)s to %(end)s, e.g. 'e1 to f1'
+#, python-format
+msgid "White king moves from %(start)s to %(end)s"
+msgstr "Valge kuningas käib %(start)s-%(end)s"
+
+#, python-format
+msgid "White king at %(start)s takes the black pawn at %(end)s"
+msgstr "Valge kuningas väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "White king at %(start)s takes the black rook at %(end)s"
+msgstr "Valge kuningas väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "White king at %(start)s takes the black knight at %(end)s"
+msgstr "Valge kuningas väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "White king at %(start)s takes the black bishop at %(end)s"
+msgstr "Valge kuningas väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "White king at %(start)s takes the black queen at %(end)s"
+msgstr "Valge kuningas väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black pawn moving from %(start)s to %(end)s, e.g. 'c8 to c6'
+#, python-format
+msgid "Black pawn moves from %(start)s to %(end)s"
+msgstr "Must ettur käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black pawn at %(start)s takes the white pawn at %(end)s"
+msgstr "Must ettur väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black pawn at %(start)s takes the white rook at %(end)s"
+msgstr "Must ettur väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black pawn at %(start)s takes the white knight at %(end)s"
+msgstr "Must ettur väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black pawn at %(start)s takes the white bishop at %(end)s"
+msgstr "Must ettur väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black pawn at %(start)s takes the white queen at %(end)s"
+msgstr "Must ettur väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black rook moving from %(start)s to %(end)s, e.g. 'a8 to a4'
+#, python-format
+msgid "Black rook moves from %(start)s to %(end)s"
+msgstr "Must vanker käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black rook at %(start)s takes the white pawn at %(end)s"
+msgstr "Must vanker väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black rook at %(start)s takes the white rook at %(end)s"
+msgstr "Must vanker väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black rook at %(start)s takes the white knight at %(end)s"
+msgstr "Must vanker väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black rook at %(start)s takes the white bishop at %(end)s"
+msgstr "Must vanker väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black rook at %(start)s takes the white queen at %(end)s"
+msgstr "Must vanker väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black knight moving from %(start)s to %(end)s, e.g. 'b8 to c6'
+#, python-format
+msgid "Black knight moves from %(start)s to %(end)s"
+msgstr "Must ratsu käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black knight at %(start)s takes the white pawn at %(end)s"
+msgstr "Must ratsu väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black knight at %(start)s takes the white rook at %(end)s"
+msgstr "Must ratsu väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black knight at %(start)s takes the white knight at %(end)s"
+msgstr "Must ratsu väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black knight at %(start)s takes the white bishop at %(end)s"
+msgstr "Must ratsu väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black knight at %(start)s takes the white queen at %(end)s"
+msgstr "Must ratsu väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black bishop moving from %(start)s to %(end)s, e.g. 'f8 to b3'
+#, python-format
+msgid "Black bishop moves from %(start)s to %(end)s"
+msgstr "Must oda käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black bishop at %(start)s takes the white pawn at %(end)s"
+msgstr "Must oda väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black bishop at %(start)s takes the white rook at %(end)s"
+msgstr "Must oda väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black bishop at %(start)s takes the white knight at %(end)s"
+msgstr "Must oda väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
+msgstr "Must oda väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black bishop at %(start)s takes the white queen at %(end)s"
+msgstr "Must oda väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black queen moving from %(start)s to %(end)s, e.g. 'd8 to d5'
+#, python-format
+msgid "Black queen moves from %(start)s to %(end)s"
+msgstr "Must lipp käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black queen at %(start)s takes the white pawn at %(end)s"
+msgstr "Must lipp väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black queen at %(start)s takes the white rook at %(end)s"
+msgstr "Must lipp väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black queen at %(start)s takes the white knight at %(end)s"
+msgstr "Must lipp väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black queen at %(start)s takes the white bishop at %(end)s"
+msgstr "Must lipp väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black queen at %(start)s takes the white queen at %(end)s"
+msgstr "Must lipp väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: Description of a black king moving from %(start)s to %(end)s, e.g. 'e8 to f8'
+#, python-format
+msgid "Black king moves from %(start)s to %(end)s"
+msgstr "Must kuningas käib %(start)s-%(end)s"
+
+#, python-format
+msgid "Black king at %(start)s takes the white pawn at %(end)s"
+msgstr "Must kuningas väljal %(start)s lööb musta etturit väljal %(end)s"
+
+#, python-format
+msgid "Black king at %(start)s takes the white rook at %(end)s"
+msgstr "Must kuningas väljal %(start)s lööb musta vankrit väljal %(end)s"
+
+#, python-format
+msgid "Black king at %(start)s takes the white knight at %(end)s"
+msgstr "Must kuningas väljal %(start)s lööb musta ratsut väljal %(end)s"
+
+#, python-format
+msgid "Black king at %(start)s takes the white bishop at %(end)s"
+msgstr "Must kuningas väljal %(start)s lööb musta oda väljal %(end)s"
+
+#, python-format
+msgid "Black king at %(start)s takes the white queen at %(end)s"
+msgstr "Must kuningas väljal %(start)s lööb musta lippu väljal %(end)s"
+
+#. Translators: Human Move String: White player has made move %(description) and the opponent is in check
+#, python-format
+msgid "%(movenum)2iw. %(description)s (Check)"
+msgstr "%(movenum)2iw. %(description)s (Tuli)"
+
+#. Translators: Human Move String: White player has made move %(description) and the opponent is in checkmate
+#, python-format
+msgid "%(movenum)2iw. %(description)s (Checkmate)"
+msgstr "%(movenum)2iw. %(description)s (Matt)"
+
+#. Translators: Human Move String: White player has made move %(description) and the opponent is in stalemate
+#, python-format
+msgid "%(movenum)2iw. %(description)s (Stalemate)"
+msgstr "%(movenum)2iw. %(description)s (Patt)"
+
+#. Translators: Human Move String: White player has made move %(description) and the opponent is not in check or mate
+#, python-format
+msgid "%(movenum)2iw. %(description)s"
+msgstr "%(movenum)2iw. %(description)s"
+
+#. Translators: Human Move String: Black player has made move %(description) and the opponent is in check
+#, python-format
+msgid "%(movenum)2ib. %(description)s (Check)"
+msgstr "%(movenum)2ib. %(description)s (Tuli)"
+
+#. Translators: Human Move String: Black player has made move %(description) and the opponent is in checkmate
+#, python-format
+msgid "%(movenum)2ib. %(description)s (Checkmate)"
+msgstr "%(movenum)2ib. %(description)s (Matt)"
+
+#. Translators: Human Move String: Black player has made move %(description) and the opponent is in stalemate
+#, python-format
+msgid "%(movenum)2ib. %(description)s (Stalemate)"
+msgstr "%(movenum)2ib. %(description)s (Patt)"
+
+#. Translators: Human Move String: Black player has made move %(description) and the opponent is not in check or mate
+#, python-format
+msgid "%(movenum)2ib. %(description)s"
+msgstr "%(movenum)2ib. %(description)s"
+
+#. Translators: Message displayed when a player wins. The %s is substituted with the winning player's name
+#, python-format
+msgid "%s wins"
+msgstr "%s võitis"
+
+#. Translators: Message displayed when a game is drawn
+msgid "Game is drawn"
+msgstr "Mäng lõppes viigiga"
+
+#. Translators: Message displayed when the game ends due to a player being checkmated
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "Vastane on tule all ja tal pole võimalik ühtegi käiku teha (matt)"
+
+#. Translators: Message displayed when the game terminates due to a stalemate
+msgid "Opponent cannot move (stalemate)"
+msgstr "Vastasel pole võimalik ühtegi käiku teha (patt)"
+
+#. Translators: Message displayed when the game is drawn due to the fifty move rule
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr ""
+"Viimase viieteist käigu jooksul pole ühtegi malendit löödud ega ühegi "
+"etturiga käidud"
+
+#. Translators: Message displayed when the game ends due to one player's clock stopping
+msgid "Opponent has run out of time"
+msgstr "Vastasel sai aeg otsa"
+
+#. Translators: Message displayed when the game is drawn due to the three-fold-repitition rule
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr "Sama mängulaua seis esineb juba kolmandat korda (kolmekordne kordus)"
+
+#. Translators: Message displayed when the game is drawn due to the insufficient material rule
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "Kummalgi mängijal pole võimalik matistada (malendite vähesuse tõttu)"
+
+#. Translators: Message displayed when the game ends due to the black player resigning
+msgid "The black player has resigned"
+msgstr "Mustadega mängija andis alla"
+
+#. Translators: Message displayed when the game ends due to the white player resigning
+msgid "The white player has resigned"
+msgstr "Valgetega mängija andis alla"
+
+#. Translators: Message displayed when a game is abandoned
+msgid "The game has been abandoned"
+msgstr ""
+
+#. Translators: Message displayed when the game ends due to a player dying
+msgid "One of the players has died"
+msgstr "Üks mängija on jäänud kadunuks"
+
+#. Translators: Add Network Profile Dialog: Connect to the GGZ Gaming Zone server (the default)
+msgid "GGZ Gaming Zone"
+msgstr "GGZ mängutsoon"
+
+#. Translators: Server Combo Box: Not connected to a server
+msgid "Disconnected"
+msgstr "Ühendus puudub"
+
+#. Translators: Server Combo Box: Add new profile
+msgid "New profile..."
+msgstr "Uus profiil..."
+
+#. Translators: Available GGZ Tables: Table name column title
+msgid "Table"
+msgstr "Laud"
+
+#. Translators: Available GGZ Tables: Seat status column title
+msgid "Seats"
+msgstr "Kohti"
+
+#. Translators: Available GGZ Tables: Table description column title
+msgid "Description"
+msgstr "Kirjeldus"
+
+#. Translators: Current GGZ Table: Seat name column title
+msgid "Seat"
+msgstr "Koht"
+
+#. Translators: Current GGZ Table: Player name column title
+msgid "Player"
+msgstr "Mängija"
+
+#. Translators: GGZ seat is occupied by a spectator
+msgid "Spectator"
+msgstr "Vaatleja"
+
+#. Translators: GGZ seat status: This seat is reserved. %s is replaced with
+#. the name of the player the seat is reserved for.
+#, python-format
+msgid "Reserved for %s"
+msgstr "Reserveeritud mängijale %s"
+
+#. Translators: GGZ seat status: This seat is not taken
+msgid "Seat empty"
+msgstr "Koht on tühi"
+
+#. Translators: GGZ seat status: This seat contains an AI player.
+#. %s is replaced with the name of the AI.
+#, python-format
+msgid "AI (%s)"
+msgstr "AI (%s)"
+
+#. Translators: The first file on the chess board
+msgctxt "chess-file"
+msgid "a"
+msgstr "a"
+
+#. Translators: The second file on the chess board
+msgctxt "chess-file"
+msgid "b"
+msgstr "b"
+
+#. Translators: The third file on the chess board
+msgctxt "chess-file"
+msgid "c"
+msgstr "c"
+
+#. Translators: The fourth file on the chess board
+msgctxt "chess-file"
+msgid "d"
+msgstr "d"
+
+#. Translators: The fifth file on the chess board
+msgctxt "chess-file"
+msgid "e"
+msgstr "e"
+
+#. Translators: The sixth file on the chess board
+msgctxt "chess-file"
+msgid "f"
+msgstr "f"
+
+#. Translators: The seventh file on the chess board
+msgctxt "chess-file"
+msgid "g"
+msgstr "g"
+
+#. Translators: The eigth file on the chess board
+msgctxt "chess-file"
+msgid "h"
+msgstr "h"
+
+#. Translators: The first rank on the chess board
+msgctxt "chess-rank"
+msgid "1"
+msgstr "1"
+
+#. Translators: The second rank on the chess board
+msgctxt "chess-rank"
+msgid "2"
+msgstr "2"
+
+#. Translators: The third rank on the chess board
+msgctxt "chess-rank"
+msgid "3"
+msgstr "3"
+
+#. Translators: The fourth rank on the chess board
+msgctxt "chess-rank"
+msgid "4"
+msgstr "4"
+
+#. Translators: The fifth rank on the chess board
+msgctxt "chess-rank"
+msgid "5"
+msgstr "5"
+
+#. Translators: The sixth rank on the chess board
+msgctxt "chess-rank"
+msgid "6"
+msgstr "6"
+
+#. Translators: The seventh rank on the chess board
+msgctxt "chess-rank"
+msgid "7"
+msgstr "7"
+
+#. Translators: The eigth rank on the chess board
+msgctxt "chess-rank"
+msgid "8"
+msgstr "8"
+
+#. Translators: The notation form of a pawn.
+#. See http://en.wikipedia.org/wiki/Algebraic_chess_notation#Figurine_Algebraic_Notation for translations.
+msgctxt "chess-notation"
+msgid "P"
+msgstr "E"
+
+#. Translators: The notation form of a knight
+msgctxt "chess-notation"
+msgid "N"
+msgstr "R"
+
+#. Translators: The notation form of a bishop
+msgctxt "chess-notation"
+msgid "B"
+msgstr "O"
+
+#. Translators: The notation form of a rook
+msgctxt "chess-notation"
+msgid "R"
+msgstr "V"
+
+#. Translators: The notation form of a queen
+msgctxt "chess-notation"
+msgid "Q"
+msgstr "L"
+
+#. Translators: The notation form of a king
+msgctxt "chess-notation"
+msgid "K"
+msgstr "K"
+
+#. Translators: Description of an AI player used in log window. %(name)s is replaced with
+#. the name of the AI player. %(game)s is replaced with the name of the game the AI player
+#. is in.
+#, python-format
+msgid "'%(name)s' in '%(game)s'"
+msgstr "'%(name)s' mängus '%(game)s'"
+
+#. Translators: Name of the log that displays application events
+msgid "Application Log"
+msgstr "Rakenduse logi"
+
+#. FIXME: Should be in a dialog
+#. Translators: Text displayed on the command-line if an unknown argument is passed
+#, python-format
+msgid "Usage: %s [game]"
+msgstr "Kasutamine: %s [mäng]"
+
+#. Translators: Name of a human versus AI game. The %s is replaced with the name of the AI player
+#, python-format
+msgid "Human versus %s"
+msgstr "Inimene - %s"
+
+#. FIXME: Isn't this done by bug-buddy?
+msgid ""
+"glChess has crashed. Please report this bug to http://bugzilla.mate.org\n"
+"Debug output:"
+msgstr ""
+"glChess krahhis. Palun teata sellest veast aadressil http://bugzilla.mate."
+"org\n"
+"Silumisväljund:"
+
+msgid "Save game before closing?"
+msgstr "Kas salvestada mäng enne sulgemist?"
+
+msgid "glChess"
+msgstr "glChess"
+
+msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+msgstr "Autoriõigused 2005-2008 Robert Ancell (ja abistajad)"
+
+msgid ""
+"The 2D/3D chess game for MATE. \n"
+"\n"
+"glChess is a part of MATE Games."
+msgstr ""
+"Kahe- ja kolmemõõtmelise lauaga malemäng MATE töölauale.\n"
+"\n"
+"\"glChess\" kuulub MATE mängude koosseisu."
+
+#. The GPL license string will be translated, and the game name inserted.
+#. This license is the same as in libgames-support/games-stock.c
+#, python-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s on vaba tarkvara. Te võite seda edasi levitada ja/või muuta vastavalt GNU "
+"Üldise Avaliku Litsentsi tingimustele, nagu need on Vaba Tarkvara Fondi "
+"poolt avaldatud; kas Litsentsi versioon number 2 või (vastavalt Teie "
+"valikule) ükskõik milline hilisem versioon."
+
+#, c-format, python-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Programmi %s levitatakse lootuses, et see on kasulik, kuid ILMA IGASUGUSE "
+"GARANTIITA; isegi KESKMISE/TAVALISE KVALITEEDIGARANTIITA või SOBIVUSELE "
+"TEATUD KINDLAKS EESMÄRGIKS. Üksikasjade suhtes vaata GNU Üldist Avalikku "
+"Litsentsi."
+
+#, c-format, python-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos programmiga %"
+"s; kui ei, siis võtke ühendust Free Software Foundation'iga, 51 Franklin "
+"Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#, python-format
+msgid "Unable to make data directory %(dir)s: %(error)s"
+msgstr "Andmekataloogi %(dir)s pole võimalik luua: %(error)s"
+
+#. Translators: GGZ disconnection error when the supplied password is incorrect
+msgid "Incorrect password"
+msgstr "Vale parool"
+
+#. Translators: GGZ disconnection error when the selected account is already in use
+msgid "Account in use"
+msgstr "Konto on juba kasutusel"
+
+#. Translators: GGZ disconnection error when the network link has broken. %s is the system provided error
+#, python-format
+msgid "Connection closed: %s"
+msgstr "Ühendus sulgeti: %s"
+
+#. Translators: GGZ disconnection error when a password was required for the selected account
+msgid "A password is required"
+msgstr "Vaja on parooli"
+
+msgid "Disconnected from server"
+msgstr "Ühendus katkestatud serveri poolt"
+
+msgid "No description"
+msgstr "Kirjeldus puudub"
+
+msgctxt "board size"
+msgid "Small"
+msgstr "Väike"
+
+msgctxt "board size"
+msgid "Medium"
+msgstr "Keskmine"
+
+msgctxt "board size"
+msgid "Large"
+msgstr "Suur"
+
+msgid "Could not load theme"
+msgstr "Teemat pole võimalik laadida"
+
+#, c-format
+msgid ""
+"Unable to locate file:\n"
+"%s\n"
+"\n"
+"The default theme will be loaded instead."
+msgstr ""
+"Faili pole võimalik leida:\n"
+"%s\n"
+"\n"
+"Selle asemel kasutatakse vaikimisi teemat."
+
+#, c-format
+msgid ""
+"Unable to locate file:\n"
+"%s\n"
+"\n"
+"Please check that Five or More is installed correctly."
+msgstr ""
+"Faili pole võimalik leida:\n"
+"%s\n"
+"\n"
+"Palun veendu, et \"Viis või rohkem\" on korrektselt paigaldatud."
+
+msgid "Match five objects of the same type in a row to score!"
+msgstr ""
+"Punktide saamiseks pead järjestikku ritta saama viis samavärvilist palli!"
+
+msgid "MATE Five or More"
+msgstr "MATE Viis või rohkem"
+
+msgid "_Board size:"
+msgstr "_Mängulaua suurus:"
+
+msgid "Game Over!"
+msgstr "Mäng on läbi!"
+
+#. Can't move there!
+msgid "You can't move there!"
+msgstr "Sinna pole võimalik käia!"
+
+msgid "Five or More"
+msgstr "Viis või rohkem"
+
+msgid ""
+"MATE port of the once-popular Color Lines game.\n"
+"\n"
+"Five or More is a part of MATE Games."
+msgstr ""
+"MATE versioon populaarsest mängust Color Lines.\n"
+"\n"
+"\"Viis või rohkem\" kuulub MATE mängude koosseisu."
+
+msgid "Five or More Preferences"
+msgstr "Mängu \"Viis või rohkem\" eelistused"
+
+msgid "Themes"
+msgstr "Teemad"
+
+msgid "_Image:"
+msgstr "_Pilt:"
+
+msgid "B_ackground color:"
+msgstr "_Taustavärv:"
+
+msgid "Board Size"
+msgstr "Mängulaua suurus"
+
+msgctxt "preferences"
+msgid "General"
+msgstr "Üldine"
+
+msgid "_Use fast moves"
+msgstr "_Kiired käigud"
+
+msgid "Next:"
+msgstr "Järgmine:"
+
+msgid "Remove colored balls from the board by forming lines"
+msgstr "Värviliste kuulide eemaldamine nende rittaajamise teel"
+
+msgid "Background color"
+msgstr "Taustavärv"
+
+msgid "Background color. The hex specification of the background color."
+msgstr "Taustavärv kuueteistkümnendsüsteemi numbrina."
+
+msgid "Ball style"
+msgstr "Pallide laad"
+
+msgid "Ball style. The filename of the images to use for the balls."
+msgstr "Pallide laad - failinimi, kus asuvad pallide pildid."
+
+msgid "Game field"
+msgstr "Mänguväli"
+
+msgid "Game field from last saved session."
+msgstr "Mänguväli viimasest salvestatud seansist."
+
+msgid "Game preview"
+msgstr "Mängu eelvaade"
+
+msgid "Game preview from last saved session."
+msgstr "Mängu eelvaade viimati salvestatud seansist."
+
+msgid "Game score"
+msgstr "Mängu tulemus"
+
+msgid "Game score from last saved session."
+msgstr "Mängu tulemus viimati salvestatud seansist."
+
+msgid "Playing field size"
+msgstr "Mänguvälja suurus"
+
+msgid ""
+"Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
+msgstr ""
+"Mänguvälja suurus. 1=Väike, 2=Keskmine, 3=Suur. Muud väärtused pole lubatud."
+
+msgid "Time between moves"
+msgstr "Viivitus käikude vahel"
+
+msgid "Time between moves in milliseconds."
+msgstr "Kui kaua peab käikude vahel ootama - aeg millisekundites."
+
+msgid "Four-in-a-Row"
+msgstr "Neli-tükki-reas"
+
+msgid "Make lines of the same color to win"
+msgstr "Ühevärviliste ridade kombineerimise võistlus"
+
+msgid "A number specifying the preferred theme."
+msgstr "Number eelistatud teema kirjeldamiseks."
+
+msgid "Animate"
+msgstr "Animatsioon"
+
+msgid "Drop marble"
+msgstr "Kivi kukutamine"
+
+msgid "Key press to drop a marble."
+msgstr "Kivi kukutamise klahvivajutus."
+
+msgid "Key press to move left."
+msgstr "Vasakule liigutamise klahvivajutus."
+
+msgid "Key press to move right."
+msgstr "Paremale liigutamise klahvivajutus."
+
+msgid "Level of Player One"
+msgstr "Esimese mängija tase"
+
+msgid "Level of Player Two"
+msgstr "Teise mängija tase"
+
+msgid "Move left"
+msgstr "Vasakule liigutamine"
+
+msgid "Move right"
+msgstr "Paremale liigutamine"
+
+msgid "Theme ID"
+msgstr "Teema ID"
+
+msgid "Whether or not to use animation."
+msgstr "Kas animatsiooni kasutatakse või mitte"
+
+msgid ""
+"Zero is human; one through three correspond to the level of the computer "
+"player."
+msgstr ""
+"Null tähendab inimest, numbrid ühest kuni kolmeni tähendavad arvuti taset."
+
+#, c-format
+msgid ""
+"Unable to load image:\n"
+"%s"
+msgstr ""
+"Pilti pole võimalik laadida:\n"
+"%s"
+
+msgid "It's a draw!"
+msgstr "Viik!"
+
+msgid "You win!"
+msgstr "Sina võitsid!"
+
+msgid "It is your move."
+msgstr "Sinu käik."
+
+msgid "I win!"
+msgstr "Mina võitsin!"
+
+msgid "Thinking..."
+msgstr "Mõtlen..."
+
+#, c-format
+msgid "%s wins!"
+msgstr "%s võitis!"
+
+#, c-format
+msgid "Waiting for %s to move."
+msgstr "Mängija %s käigu ootamine."
+
+#, c-format
+msgid "Hint: Column %d"
+msgstr "Vihje: %d tulp"
+
+msgid "You:"
+msgstr "Sina:"
+
+msgid "Me:"
+msgstr "Mina:"
+
+msgid "Scores"
+msgstr "Tulemused"
+
+msgid "Drawn:"
+msgstr "Viike:"
+
+msgid ""
+"\"Four in a Row\" for MATE, with a computer player driven by Giuliano "
+"Bertoletti's Velena Engine.\n"
+"\n"
+"\"Four in a Row\" is a part of MATE Games."
+msgstr ""
+"\"Neli-tükki-reas\" MATE versioon. Arvutimängijat juhib Giuliano Bertoletti "
+"poolt loodud mootor Velena Engine.\n"
+"\n"
+"\"Neli-tükki-reas\" kuulub MATE mängude koosseisu."
+
+#, c-format
+msgid ""
+"Player One:\n"
+"%s"
+msgstr ""
+"Esimene mängija:\n"
+"%s"
+
+#, c-format
+msgid ""
+"Player Two:\n"
+"%s"
+msgstr ""
+"Teine mängija:\n"
+"%s"
+
+msgid "Level one"
+msgstr "Esimene tase"
+
+msgid "Level two"
+msgstr "Teine tase"
+
+msgid "Level three"
+msgstr "Kolmas tase"
+
+msgid "Four-in-a-Row Preferences"
+msgstr "Neli-tükki-reas eelistused"
+
+msgid "Game"
+msgstr "Mäng"
+
+msgid "Appearance"
+msgstr "Välimus"
+
+msgid "_Theme:"
+msgstr "_Teema:"
+
+msgid "Enable _animation"
+msgstr "_Animatsioon on lubatud"
+
+msgid "E_nable sounds"
+msgstr "_Helid on lubatud"
+
+#. keyboard tab
+msgid "Keyboard Controls"
+msgstr "Klaviatuuriga juhtimine"
+
+msgid "Classic"
+msgstr "Klassikaline"
+
+msgid "Red"
+msgstr "Punane"
+
+msgid "Yellow"
+msgstr "Kollane"
+
+msgid "High Contrast"
+msgstr "Tugev kontrast"
+
+msgid "Light"
+msgstr "Hele"
+
+msgid "Dark"
+msgstr "Tume"
+
+msgid "High Contrast Inverse"
+msgstr "Tugev kontrast inversioonis"
+
+msgid "Cream Marbles"
+msgstr "Kreemjad kivikesed"
+
+msgid "Blue"
+msgstr "Sinine"
+
+msgid "Glass Marbles"
+msgstr "Klaaskivikesed"
+
+msgid "Nightfall"
+msgstr "Videvik"
+
+msgid "Blocks"
+msgstr "Blokid"
+
+msgid "Orange"
+msgstr "Oranž"
+
+#, c-format
+msgid ""
+"Nibbles couldn't load level file:\n"
+"%s\n"
+"\n"
+"Please check your Nibbles installation"
+msgstr ""
+"Nibblesil pole võimalik tasemefaili laadida:\n"
+"%s\n"
+"\n"
+"Palun kontrolli oma Nibblesi paigaldust"
+
+#, c-format
+msgid ""
+"Level file appears to be damaged:\n"
+"%s\n"
+"\n"
+"Please check your Nibbles installation"
+msgstr ""
+"Tasemefail paistab olevat rikutud:\n"
+"%s\n"
+"\n"
+"Palun kontrolli oma Nibblesi paigaldust"
+
+#, c-format
+msgid ""
+"Nibbles couldn't find pixmap file:\n"
+"%s\n"
+"\n"
+"Please check your Nibbles installation"
+msgstr ""
+"Nibbles ei leidnud pildifaili:\n"
+"%s\n"
+"\n"
+"Palun kontrolli oma Nibblesi paigaldust"
+
+msgid "Nibbles Scores"
+msgstr "Ussimängu tulemused"
+
+msgid "Speed:"
+msgstr "Kiirus:"
+
+msgid "Congratulations!"
+msgstr "Õnnitlused!"
+
+msgid "Your score is the best!"
+msgstr "Sinu tulemus on parim!"
+
+msgid "Your score has made the top ten."
+msgstr "Sinu tulemus on esikümne vääriline."
+
+msgid "Guide a worm around a maze"
+msgstr "Ussi juhtimine läbi labürindi"
+
+msgid "Nibbles"
+msgstr "Ussimäng"
+
+msgid "Color to use for worm"
+msgstr "Ussi jaoks kasutatav värv"
+
+msgid "Color to use for worm."
+msgstr "Ussi jaoks kasutatav värv."
+
+msgid "Enable fake bonuses"
+msgstr "Võltspreemiate lubamine"
+
+msgid "Enable fake bonuses."
+msgstr "Võltspreemiate lubamine."
+
+msgid "Enable sounds"
+msgstr "Heli lubatud"
+
+msgid "Enable sounds."
+msgstr "Helid on lubatud."
+
+msgid "Game level to start on"
+msgstr "Mängu algustase"
+
+msgid "Game level to start on."
+msgstr "Mängu algustase."
+
+msgid "Game speed"
+msgstr "Mängu kiirus"
+
+msgid "Game speed (1=fast, 4=slow)."
+msgstr "Mängu kiirus (1=kiire, 4=aeglane)."
+
+msgid "Key to use for motion down."
+msgstr "Allaliigutamise klahv."
+
+msgid "Key to use for motion left."
+msgstr "Vasakuleliigutamise klahv."
+
+msgid "Key to use for motion right."
+msgstr "Paremaleliigutamise klahv."
+
+msgid "Key to use for motion up."
+msgstr "Ülesliigutamise klahv."
+
+msgid "Move down"
+msgstr "Alla liigutamine"
+
+msgid "Move up"
+msgstr "Üles liigutamine"
+
+msgid "Number of AI players"
+msgstr "AI-mängijate arv"
+
+msgid "Number of AI players."
+msgstr "AI-mängijate arv."
+
+msgid "Number of human players"
+msgstr "Inimmängijate arv"
+
+msgid "Number of human players."
+msgstr "Inimmängijate arv."
+
+msgid "Play levels in random order"
+msgstr "Tasemed juhuslikus järjekorras"
+
+msgid "Play levels in random order."
+msgstr "Mängutasemed juhuslikus järjekorras."
+
+msgid "Size of game tiles"
+msgstr "Mänguklotside suurus"
+
+msgid "Size of game tiles."
+msgstr "Mänguklotside suurus."
+
+msgid "Use relative movement"
+msgstr "Suhteline liikumine"
+
+msgid "Use relative movement (ie. left or right only)."
+msgstr ""
+"Suhtelise liikumise kasutamine (ehk ainult vasakule ja paremale pööramine)."
+
+msgctxt "game speed"
+msgid "Beginner"
+msgstr "Algaja"
+
+msgctxt "game speed"
+msgid "Slow"
+msgstr "Aeglane"
+
+msgctxt "game speed"
+msgid "Medium"
+msgstr "Keskmine"
+
+msgctxt "game speed"
+msgid "Fast"
+msgstr "Kiire"
+
+msgctxt "game speed"
+msgid "Beginner with Fakes"
+msgstr "Algaja, koos võltsingutega"
+
+msgctxt "game speed"
+msgid "Slow with Fakes"
+msgstr "Aeglane, koos võltsingutega"
+
+msgctxt "game speed"
+msgid "Medium with Fakes"
+msgstr "Keskmine, koos võltsingutega"
+
+msgctxt "game speed"
+msgid "Fast with Fakes"
+msgstr "Kiire, koos võltsingutega"
+
+msgid ""
+"A worm game for MATE.\n"
+"\n"
+"Nibbles is a part of MATE Games."
+msgstr ""
+"MATE ussimäng.\n"
+"\n"
+"\"Nibbles\" kuulub MATE mängude koosseisu."
+
+#, c-format
+msgid "Game over! The game has been won by %s!"
+msgstr "Mäng on läbi! Mängu võitis %s!"
+
+msgid "The game is over."
+msgstr "Mäng on läbi."
+
+#. Translators: This string will be included in the intro screen, so don't make sure it fits!
+msgid "A worm game for MATE."
+msgstr "MATE ussimäng."
+
+msgid "Nibbles Preferences"
+msgstr "Ussimängu eelistused"
+
+msgid "Speed"
+msgstr "Kiirus"
+
+msgid "Nibbles newbie"
+msgstr "Algaja ussimängija"
+
+msgid "My second day"
+msgstr "Minu teine päev"
+
+msgid "Not too shabby"
+msgstr "Mitte liiga tormakas"
+
+msgid "Finger-twitching good"
+msgstr "Sõrmeväänamine"
+
+#. Options
+msgid "Options"
+msgstr "Valikud"
+
+msgid "_Play levels in random order"
+msgstr "_Tasemed juhuslikus järjekorras"
+
+msgid "_Enable fake bonuses"
+msgstr "_Võltspreemiad on lubatud"
+
+#. starting level
+msgid "_Starting level:"
+msgstr "_Algustase: "
+
+msgid "Number of _human players:"
+msgstr "_Inimmängijate arv:"
+
+msgid "Number of _AI players:"
+msgstr "_AI-mängijate arv:"
+
+msgid "Worm"
+msgstr "Uss"
+
+msgid "_Use relative movement"
+msgstr "_Suhteline liikumine"
+
+msgid "_Worm color:"
+msgstr "_Ussi värv:"
+
+msgid "Green"
+msgstr "Roheline"
+
+msgid "Cyan"
+msgstr "Sinakasroheline"
+
+msgid "Purple"
+msgstr "Sirelikarva"
+
+msgid "Gray"
+msgstr "Hall"
+
+#, c-format
+msgid "Worm %d:"
+msgstr "Uss %d:"
+
+msgid "Game over!"
+msgstr "Mäng on läbi!"
+
+msgid "Great work, but unfortunately your score did not make the top ten."
+msgstr "Hästi tehtud! Kahjuks aga ei mahtunud su tulemus esikümnesse."
+
+#. Translators: This "_New Game" is for the game-over dialogue
+msgid "_New Game"
+msgstr "_Uus mäng"
+
+msgid "Robots Scores"
+msgstr "Robotite tulemused"
+
+msgid "Map:"
+msgstr "Ladumisviis:"
+
+msgid ""
+"Congratulations, You Have Defeated the Robots!! \n"
+"But Can You do it Again?"
+msgstr ""
+"Õnnitlused, sa tegid robotitele ära!!\n"
+"Kuid kas sa suudad seda korrata?"
+
+#. This should never happen.
+msgid "There are no teleport locations left!!"
+msgstr "Ei ole enam kohti, kuhu teleportida!!"
+
+msgid "There are no safe locations to teleport to!!"
+msgstr "Ei ole enam ohutuid kohti, kuhu teleportida!!"
+
+msgid "Set game scenario"
+msgstr "Mängustsenaariumi muutmine"
+
+msgid "Set game configuration"
+msgstr "Mängu sätete muutmine"
+
+msgid "Initial window position"
+msgstr "Vigane akna asukoht"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Classic robots"
+msgstr "Klassikalised robotid"
+
+msgid "Classic robots with safe moves"
+msgstr "Klassikalised robotid ohutute käikudega"
+
+msgid "Classic robots with super-safe moves"
+msgstr "Klassikalised robotid eriti ohutute käikudega"
+
+msgid "Nightmare"
+msgstr "Luupainaja"
+
+msgid "Nightmare with safe moves"
+msgstr "Luupainaja ohutute käikudega"
+
+msgid "Nightmare with super-safe moves"
+msgstr "Luupainaja eriti ohutute käikudega"
+
+msgid "Robots2"
+msgstr "Robotid-2"
+
+msgid "Robots2 with safe moves"
+msgstr "Robotid-2 ohutute käikudega"
+
+msgid "Robots2 with super-safe moves"
+msgstr "Robotid-2 eriti ohutute käikudega"
+
+msgid "Robots2 easy"
+msgstr "Lihtne robotid-2"
+
+msgid "Robots2 easy with safe moves"
+msgstr "Robotid-2 ohutute käikudega"
+
+msgid "Robots2 easy with super-safe moves"
+msgstr "Robotid-2 eriti ohutute käikudega"
+
+msgid "Robots with safe teleport"
+msgstr "Robotid ohutute teleportidega"
+
+msgid "Robots with safe teleport with safe moves"
+msgstr "Robotid ohutute teleportide ja käikudega"
+
+msgid "Robots with safe teleport with super-safe moves"
+msgstr "Robotid ohutute teleportidega ja eriti ohutute käikudega"
+
+msgid "Robots"
+msgstr "Robotid"
+
+msgid "No game data could be found."
+msgstr "Mängu andmeid pole võimalik leida."
+
+msgid ""
+"The program Robots was unable to find any valid game configuration files. "
+"Please check that the program is installed correctly."
+msgstr ""
+"Robotiprogramm ei leidnud ühtegi vigadeta mängusätete faili. Palun "
+"kontrolli, kas programm on korralikult paigaldatud."
+
+msgid "Some graphics files are missing or corrupt."
+msgstr "Mõned graafikafailid on rikutud või puudu."
+
+msgid ""
+"The program Robots was unable to load all the necessary graphics files. "
+"Please check that the program is installed correctly."
+msgstr ""
+"Robotiprogramm ei ole suuteline kõiki vajalikke graafikafaile laadima. Palun "
+"kontrolli, kas programm on korralikult paigaldatud."
+
+#. ********************************************************************
+msgid "Avoid the robots and make them crash into each other"
+msgstr "Hoidu robotite eest ja proovi neid meelitada omavahel kokku põrkama"
+
+msgid "Enable game sounds"
+msgstr "Mänguheli lubatud"
+
+msgid "Enable game sounds. Play sounds for various events throughout the game."
+msgstr "Mänguheli lubamine. Helide esitamine mitmete mängusündmuste korral."
+
+msgid "Game type"
+msgstr "Mängu liik"
+
+msgid "Game type. The name of the game variation to use."
+msgstr "Mängu liik. Kasutatava mänguvariatsiooni nimi."
+
+msgid "Key to hold"
+msgstr "Passimise klahv"
+
+msgid "Key to move E"
+msgstr "Ida suunas liigutamise klahv (E)"
+
+msgid "Key to move N"
+msgstr "Põhja suunas liigutamise klahv (N)"
+
+msgid "Key to move NE"
+msgstr "Kirde suunas liigutamise klahv (NE)"
+
+msgid "Key to move NW"
+msgstr "Loode suunas liigutamise klahv (NW)"
+
+msgid "Key to move S"
+msgstr "Lõuna suunas liigutamise klahv (S)"
+
+msgid "Key to move SE"
+msgstr "Kagu suunas liigutamise klahv (SE)"
+
+msgid "Key to move SW"
+msgstr "Edela suunas liigutamise klahv (SW)"
+
+msgid "Key to move W"
+msgstr "Lääne suunas liigutamise klahv (W)"
+
+msgid "Key to teleport"
+msgstr "Telepordi klahv"
+
+msgid "Key to teleport randomly"
+msgstr "Juhusliku telepordi klahv"
+
+msgid "Key to wait"
+msgstr "Ootamise klahv"
+
+msgid "Robot image theme"
+msgstr "Robotite pilditeema"
+
+msgid "Robot image theme. The theme of the images to use for the robots."
+msgstr ""
+"Robotite pilditeema on teema, millega kirjeldatakse robotite joonistamiseks "
+"kasutatavaid pilte."
+
+msgid "Show toolbar"
+msgstr "Tööriistariba näitamine"
+
+msgid "Show toolbar. A standard option for toolbars."
+msgstr "Tööriistariba näitamine. Tööriistaribade standardvalik."
+
+msgid ""
+"The name of the key used to hold still. The name is a standard X key name."
+msgstr "Passimise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move east. The name is a standard X key name."
+msgstr "Ida suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move north-east. The name is a standard X key "
+"name."
+msgstr "Kirde suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move north-west. The name is a standard X key "
+"name."
+msgstr "Loode suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move north. The name is a standard X key name."
+msgstr "Põhja suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move south-east. The name is a standard X key "
+"name."
+msgstr "Kagu suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move south-west. The name is a standard X key "
+"name."
+msgstr "Edela suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move south. The name is a standard X key name."
+msgstr "Lõuna suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to move west. The name is a standard X key name."
+msgstr "Lääne suunas liikumise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to teleport randomly. The name is a standard X key "
+"name."
+msgstr "Juhusliku telepordi klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid ""
+"The name of the key used to teleport safely (if possible). The name is a "
+"standard X key name."
+msgstr ""
+"Ohutu (võimaluse korral) telepordi klahv. Klahvinimi on standardne X-i "
+"klahvinimi."
+
+msgid "The name of the key used to wait. The name is a standard X key name."
+msgstr "Ootamise klahv. Klahvinimi on standardne X-i klahvinimi."
+
+msgid "Use safe moves"
+msgstr "Ohutute käikude kasutamine"
+
+msgid ""
+"Use safe moves. The safe moves option will help you to avoid being killed "
+"due to a mistake. If you try to make a move that would lead to your death "
+"when there is a safe move available you will not be allowed to proceed."
+msgstr ""
+"Ohutute käikude kasutamine. Ohutud käigud kaitsevad mängijat enda vea tõttu "
+"surma saamast. Kui sa proovid teha käiku, mis lõpeb surmaga ja samal ajal on "
+"võimalik teha mõnda ohutut käiku, siis surmaga lõppevat käiku ei lasta teha."
+
+msgid "Use super safe moves"
+msgstr "Eriti ohutute käikude kasutamine"
+
+msgid ""
+"Use super safe moves. The player is alerted when there is no safe move and "
+"the only option is to teleport out."
+msgstr ""
+"Eriti ohutute käikude kasutamine. Mängijat hoiatatakse olukorras, kus pole "
+"võimalik ühtegi ohutut käiku teha ja ainsaks valikuks on teleporteerumine."
+
+#, c-format
+msgid "Could not find '%s' pixmap file\n"
+msgstr "Pildifaili '%s' pole võimalik leida\n"
+
+msgid "_Move"
+msgstr "_Käik"
+
+msgid "_Teleport"
+msgstr "_Teleport"
+
+msgid "Teleport, safely if possible"
+msgstr "Teleport, võimaluse korral ohutult"
+
+msgid "_Random"
+msgstr "_Juhuslik"
+
+msgid "Teleport randomly"
+msgstr "Juhuslik teleport"
+
+msgid "_Wait"
+msgstr "_Oota"
+
+msgid "Wait for the robots"
+msgstr "Robotite ootamine"
+
+msgid ""
+"Based on classic BSD Robots.\n"
+"\n"
+"Robots is a part of MATE Games."
+msgstr ""
+"Põhineb klassikalisel BSD Robots mängul.\n"
+"\n"
+"\"Robotid\" kuulub MATE mängude koosseisu."
+
+msgid "classic robots"
+msgstr "klassikalised robotid"
+
+msgid "robots2"
+msgstr "robotid-2"
+
+msgid "robots2 easy"
+msgstr "lihtne robotid-2"
+
+msgid "robots with safe teleport"
+msgstr "robotid ohutute teleportidega"
+
+msgid "nightmare"
+msgstr "luupainaja"
+
+msgid "robots"
+msgstr "robotid"
+
+msgid "cows"
+msgstr "lehmad"
+
+msgid "eggs"
+msgstr "munad"
+
+msgid "mates"
+msgstr "päkapikud"
+
+msgid "mice"
+msgstr "hiired"
+
+msgid "ufo"
+msgstr "ufo"
+
+msgid "boo"
+msgstr "böö"
+
+msgid "Robots Preferences"
+msgstr "Robotimängu eelistused"
+
+#. --- Combo (yahtzee or kismet style ----
+msgid "Game Type"
+msgstr "Mängu liik"
+
+msgid "_Use safe moves"
+msgstr "_Ohutute käikude kasutamine"
+
+msgid "Prevent accidental moves that result in getting killed."
+msgstr "Kõikide surmaga lõppevate juhuslike käikude keelamine."
+
+msgid "U_se super safe moves"
+msgstr "_Eriti ohutute käikude kasutamine"
+
+msgid "Prevents all moves that result in getting killed."
+msgstr "Kõikide surmaga lõppevate käikude keelamine."
+
+msgid "_Enable sounds"
+msgstr "_Helid on lubatud"
+
+msgid "Play sounds for events like winning a level and dying."
+msgstr "Heli mängimine sündmuste korral nagu võtmine ja taseme tõus."
+
+msgid "Graphics Theme"
+msgstr "Graafiline teema"
+
+msgid "_Image theme:"
+msgstr "_Pildi teema:"
+
+msgid "_Background color:"
+msgstr "_Taustavärvus:"
+
+msgid "_Restore Defaults"
+msgstr "_Säti vaikeväärtused"
+
+msgid "Keyboard"
+msgstr "Klaviatuur"
+
+msgid "Safe Teleports:"
+msgstr "Ohutuid teleporte:"
+
+msgid "Level:"
+msgstr "Tase:"
+
+msgid "Remaining:"
+msgstr "Jäänud:"
+
+#. ********************************************************************
+msgid "Fit falling blocks together"
+msgstr "Langevate klotside omavaheline kokkusobitamine"
+
+msgid "Quadrapassel"
+msgstr "Quadrapassel"
+
+msgid "Drop"
+msgstr "Kukutamine"
+
+msgid "Image to use for drawing blocks"
+msgstr "Plokkide joonistamiseks kasutatav pilt"
+
+msgid "Image to use for drawing blocks."
+msgstr "Plokkide joonistamiseks kasutatav pilt."
+
+msgid "Key press to drop."
+msgstr "Kukutamise klahv"
+
+msgid "Key press to move down."
+msgstr "Allaliigutamise klahv"
+
+msgid "Key press to pause."
+msgstr "Pausimise klahv"
+
+msgid "Key press to rotate."
+msgstr "Pööramise klahv"
+
+msgid "Level to start with"
+msgstr "Algustase"
+
+msgid "Level to start with."
+msgstr "Tase, millega mängu alustada."
+
+msgid "Pause"
+msgstr "Mängu peatamine"
+
+msgid "Rotate"
+msgstr "Pööramine"
+
+msgid "The background color"
+msgstr "Taustavärv:"
+
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Taustavärv gdk_color_parse jaoks arusaadavas vormingus."
+
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+msgid "The density of filled rows"
+msgstr "Eelnevalt täidetud ridade arv"
+
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Plokkide ja tausta renderdamiseks kasutatva teema nimi."
+
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "Mängu alguses juhuslike plokkidega täidetud ridade arv."
+
+msgid "The number of rows to fill"
+msgstr "Täidetavate ridade arv"
+
+msgid "The theme used for rendering the blocks"
+msgstr "Plokkide renderdamiseks kasutatav teema"
+
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+msgid "Whether to give blocks random colors"
+msgstr "Kas plokkidele määratakse juhuslikud värvused"
+
+msgid "Whether to give blocks random colors."
+msgstr "Kas plokkidele määratakse juhuslikud värvused."
+
+msgid "Whether to preview the next block"
+msgstr "Järgmise klotsi piilumine"
+
+msgid "Whether to preview the next block."
+msgstr "Järgmise klotsi piilumine."
+
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "Kas plokkide langemiskohta kujutatakse graafiliselt või mitte."
+
+msgid "Whether to provide a target"
+msgstr ""
+
+msgid "Whether to rotate counter clock wise"
+msgstr "Vastupäeva pööramine"
+
+msgid "Whether to rotate counter clock wise."
+msgstr "Vastupäeva pööramine."
+
+msgid "Whether to use the background image"
+msgstr "Kas taustapilti kasutatakse"
+
+msgid "Set starting level (1 or greater)"
+msgstr "Vali algustase (1 või suurem)"
+
+msgid "LEVEL"
+msgstr "TASE"
+
+msgid "Plain"
+msgstr "Lihtne"
+
+msgid "Tango Flat"
+msgstr "Lame Tango"
+
+msgid "Tango Shaded"
+msgstr "Varjuga Tango"
+
+msgid "Lines:"
+msgstr "Ridu:"
+
+msgid "Quadrapassel Preferences"
+msgstr "Quadrapasseli eelistused"
+
+msgid "Setup"
+msgstr "Seaded"
+
+#. pre-filled rows
+msgid "_Number of pre-filled rows:"
+msgstr "_Eelnevalt täidetud ridade arv:"
+
+#. pre-filled rows density
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "Eeltäidetud rea _tihedus:"
+
+msgid "Operation"
+msgstr "Toimimine"
+
+msgid "_Preview next block"
+msgstr "_Piilutakse järgmist klotsi"
+
+msgid "_Use random block colors"
+msgstr "Juhuslikku vä_rvi klotsid"
+
+msgid "_Bastard mode"
+msgstr ""
+
+msgid "_Rotate blocks counterclockwise"
+msgstr "Klotse pööratakse _vastupäeva"
+
+msgid "Show _where the block will land"
+msgstr "Näidatakse klotsi _maandumiskohta"
+
+msgid "Theme"
+msgstr "Teema"
+
+msgid "Controls"
+msgstr "Juhtimine"
+
+msgid "Block Style"
+msgstr "Klotside laad"
+
+msgid "Qua"
+msgstr ""
+
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Quadrapassel is a part of MATE Games."
+msgstr ""
+"Klassikaline langevate klotside sobitamise mäng.\n"
+"\n"
+"Quadrapassel kuulub MATE mängude koosseisu."
+
+msgid "Quadrapassel Scores"
+msgstr "Quadrapasseli tulemused"
+
+msgid "Paused"
+msgstr "Peatatud"
+
+msgid "Sudoku"
+msgstr "Sudoku"
+
+msgid "Test your logic skills in this number grid puzzle"
+msgstr "Loogikavõimeid proovile panev tabelmõistatuste lahendamine"
+
+msgid "Color of the grid border"
+msgstr "Ruudustiku raami jaoks kasutatav värvus"
+
+msgid "Generate new puzzles in the background"
+msgstr "Mängimise ajal uute mõistatuste genereerimine"
+
+msgid "Height of application window in pixels"
+msgstr "Rakenduse akna kõrgus pikslites."
+
+msgid "Mark printed games as played"
+msgstr "Prinditud mõistatuste märkimine mängituks"
+
+msgid "Number of puzzles to print on a page"
+msgstr "Leheküljele prinditavate mõistatuste arv"
+
+msgid "Print games that have been played"
+msgstr "Mängitud mängude printimine"
+
+msgid "Show hint highlights"
+msgstr ""
+
+msgid "Show hints"
+msgstr "Vihjete näitamine"
+
+msgid "Show the application toolbar"
+msgstr "Tööriistariba näitamine"
+
+msgid "The number of seconds between automatic saves"
+msgstr "Automaatsete salvestuste vahe sekundites"
+
+msgid "Width of application window in pixels"
+msgstr "Rakenduse akna laius pikslites."
+
+msgid "<b><i>Details</i></b>"
+msgstr "<b><i>Üksikasjad</i></b>"
+
+msgid "<b><i>Levels of difficulty to print</i></b>"
+msgstr "<b><i>Prinditavate mõistatuste raskusaste</i></b>"
+
+msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Mõistatuste printimine</span>"
+
+msgid "Print Sudokus"
+msgstr "Sudokude printimine"
+
+msgid "_Easy"
+msgstr "Ker_ge"
+
+msgid "_Hard"
+msgstr "_Raske"
+
+msgid "_Include games you've already played in list of games to print"
+msgstr "Prindi_takse ka juba lahendatud mõistatused"
+
+msgid "_Mark games as played once you've printed them."
+msgstr "Väljaprinditud _mõistatusted märgitakse lahendatuteks"
+
+msgid "_Medium"
+msgstr "_Keskmine"
+
+msgid "_Number of sudoku to print: "
+msgstr "Prin_ditavate sudokude arv:"
+
+msgid "_Sudokus per page: "
+msgstr "_Sudokusid lehekülje kohta: "
+
+msgid "_Very Hard"
+msgstr "_Väga raske"
+
+msgid "<i><u>Number of Puzzles</u></i>"
+msgstr "<i><u>Mõistatuste arv</u></i>"
+
+msgid "<i>Easy:</i>"
+msgstr "<i>Kerge:</i>"
+
+msgid "<i>Hard:</i>"
+msgstr "<i>Raske:</i>"
+
+msgid "<i>Medium:</i>"
+msgstr "<i>Keskmine:</i>"
+
+msgid "<i>Very Hard:</i>"
+msgstr "<i>Väga raske:</i>"
+
+msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Puzzle Genereerija</span>"
+
+msgid "Criteria:"
+msgstr "Kriteerium:"
+
+msgid "Generate Policy"
+msgstr "Genereerimise reeglid"
+
+msgid "Generate new puzzles _until stopped"
+msgstr "_Mõistatusi genereeritakse kuni peatamiseni"
+
+msgid "Generate until _reaching target"
+msgstr "Genereeritakse _kuni määratud arvu saavutamiseni"
+
+msgid "Puzzle Generator"
+msgstr "Mõistatuste generaator"
+
+msgid "Target _number of sudokus:"
+msgstr "Mõistatuste _arv:"
+
+msgid "_Generate"
+msgstr "_Genereeri"
+
+msgid "<b><span size=\"large\">_New Game</span></b>"
+msgstr "<b><span size=\"large\">_Uus mäng</span></b>"
+
+msgid "<b><span size=\"large\">_Saved Games</span></b>"
+msgstr "<b><span size=\"large\">_Salvestatud mängud</span></b>"
+
+msgid "Clear _Others"
+msgstr "Puhasta m_uud"
+
+msgid "_Add Tracker"
+msgstr "_Lisa jälgija"
+
+msgid "_Clear Tracker"
+msgstr "Pu_hasta jälgija"
+
+msgid "_Trackers"
+msgstr "_Jälgijad"
+
+msgid "Sudoku incorrectly installed"
+msgstr "Sudoku pole korrektselt paigaldatud"
+
+msgid ""
+"Sudoku is not able to start because required application files are not "
+"installed. If you are currently upgrading your system please wait until the "
+"upgrade has completed."
+msgstr ""
+"Sudokul pole võimalik käivituda, kuna rakenduse failid pole paigaldatud. Kui "
+"sa peaksid parasjagu oma süsteemi uuendama, siis oota, kuni uuendamine on "
+"lõppenud."
+
+msgid "MATE Sudoku"
+msgstr "MATE Sudoku"
+
+msgid ""
+"MATE Sudoku is a simple sudoku generator and player. Sudoku is a japanese "
+"logic puzzle.\n"
+"\n"
+"MATE Sudoku is a part of MATE Games."
+msgstr ""
+"MATE Sudoku on lihtne sudoku-mõistatuste generaator ja lahendaja. Sudoku on "
+"jaapani loogikamäng.\n"
+"\n"
+"\"MATE Sudoku\" kuulub MATE mängude koosseisu."
+
+msgid "No Space"
+msgstr "Ruumi ei ole"
+
+msgid "No space left on disk"
+msgstr "Kettal pole enam vaba ruumi"
+
+#, python-format
+msgid "Unable to create data folder %(path)s."
+msgstr "Andmekataloogi %(path)s pole võimalik luua."
+
+msgid "There is no disk space left!"
+msgstr "Kettal pole enam vaba ruumi!"
+
+#, python-format
+msgid "Error %(errno)s: %(error)s"
+msgstr "Viga %(errno)s: %(error)s"
+
+msgid "Sudoku unable to save game."
+msgstr "Sudoku mängu pole võimalik salvestada."
+
+#, python-format
+msgid "Unable to save file %(filename)s."
+msgstr "Faili %(filename)s pole võimalik salvestada."
+
+msgid "Sudoku unable to mark game as finished."
+msgstr "Sudokul pole võimalik mägnu lõpetatuks märkida."
+
+msgid "Track moves"
+msgstr ""
+
+msgid "New game"
+msgstr "Uus mäng"
+
+msgid "Print current game"
+msgstr "Käesoleva mängu printimine"
+
+msgid "Print _Multiple Sudokus"
+msgstr "Prindi _mitu sudokut"
+
+msgid "Print more than one sudoku at a time."
+msgstr "Korraga rohkem kui ühe sudoku printimine"
+
+msgid "Close Sudoku"
+msgstr "Sudoku sulgemine"
+
+msgid "_Tools"
+msgstr "_Tööriistad"
+
+msgid "_Hint"
+msgstr "_Vihje"
+
+msgid "Show which numbers could go in the current square."
+msgstr "Käesolevasse ruutu sobivate numbrite näitamine."
+
+msgid "_Fill"
+msgstr "_Täida"
+
+msgid "Automatically fill in the current square if possible."
+msgstr "Võimaluse korral ruudu automaatne täitmine."
+
+msgid "Fill _all squares"
+msgstr "Täida kõik _ruudud"
+
+msgid ""
+"Automatically fill in all squares for which there is only one valid value."
+msgstr ""
+"Võimaluse korral kõikide ruutude, millele on võimalik ainult üks lubatud "
+"väärtus, automaatne täitmine."
+
+msgid "_Generate new puzzles"
+msgstr "_Genereeri uued mõistatused"
+
+msgid "Generate new puzzles."
+msgstr "Uute mõistatuste genereerimine."
+
+msgid "Puzzle _Statistics"
+msgstr "Mõistatuse _statistika"
+
+msgid "Show statistics about current puzzle"
+msgstr "Käesoleva mõistatuse kohta statistika näitamine"
+
+msgid "_Always show hint"
+msgstr "_Näita alati vihjeid"
+
+msgid "Always show possible numbers in a square"
+msgstr "Võimalikud numbrid märgitakse alati mänguväljale"
+
+msgid "Warn about _unfillable squares"
+msgstr "_Hoiata mittetäidetavate ruutude eest"
+
+msgid "Warn about squares made unfillable by a move"
+msgstr ""
+"Hoiatamine ruutude eest, mille täitmine käigu tagajärjel võimatuks tehakse"
+
+msgid "_Track additions"
+msgstr "_Jälgi lisamisi"
+
+msgid "Mark new additions in a separate color so you can keep track of them."
+msgstr ""
+"Uusi lisatud numbreid märgitakse nende jälgimise hõlbustamiseks teistsuguse "
+"värvusega."
+
+msgid "_Highlighter"
+msgstr "_Esiletõstja"
+
+msgid "Highlight the current row, column and box"
+msgstr "Käesoleva rea, veeru ja kasti esiletõstmine"
+
+msgid "Generate new puzzles _while you play"
+msgstr "Genereeri uued mõistatused mängimise _ajal"
+
+msgid ""
+"Generate new puzzles in the background while you play. This will "
+"automatically pause when the game goes into the background."
+msgstr ""
+"Uute mõistatuste genereerimine mängimisega samal ajal. Genereerimine "
+"peatatakse ajaks, mil sudoku aken pole aktiivne."
+
+msgid "_Edit"
+msgstr "_Redaktor"
+
+msgid "_Undo"
+msgstr "_Unusta"
+
+msgid "Undo last action"
+msgstr "Viimase tegevuse unustamine"
+
+msgid "_Redo"
+msgstr "Uu_esti"
+
+msgid "Redo last action"
+msgstr "Unustatud tegevuse uuesti tegemine"
+
+msgid "_Clear"
+msgstr "_Puhasta"
+
+msgid "Clear entries you've filled in"
+msgstr "Täidetud kirjete puhastamine"
+
+msgid "Clear _Notes"
+msgstr "Puhasta _märkmed"
+
+msgid "Clear notes and hints"
+msgstr "Märkmete ja vihjete puhastamine"
+
+#, python-format
+msgid "You completed the puzzle in %(totalTime)s (%(activeTime)s active)"
+msgstr ""
+
+#, python-format
+msgid "You got %(n)s hint"
+msgid_plural "You got %(n)s hints"
+msgstr[0] "Sa said %(n)s vihje"
+msgstr[1] "Sa said %(n)s vihjet"
+
+#, python-format
+msgid "You had %(n)s impossibility pointed out."
+msgid_plural "You had %(n)s impossibilities pointed out."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "You used the auto-fill %(n)s time"
+msgid_plural "You used the auto-fill %(n)s times"
+msgstr[0] "Sa kasutasid automaattäitmist %(n)s korra"
+msgstr[1] "Sa kasutasid automaattäitmist %(n)s korda"
+
+msgid "Save this game before starting new one?"
+msgstr "Kas enne uue mängu alustamist tuleb praegune mäng salvestada?"
+
+msgid "_Save game for later"
+msgstr "Salvesta mäng _hiljem"
+
+msgid "_Abandon game"
+msgstr "_Tühista mäng"
+
+#, python-format
+msgid "Playing %(difficulty)s puzzle."
+msgstr "Mõistatuse \"%(difficulty)s\" lahendamine."
+
+msgid "Puzzle Information"
+msgstr "Mõistatuse andmed"
+
+msgid "There is no current puzzle."
+msgstr "Praegu ei lahendata ühtegi mõistatust."
+
+msgid "Calculated difficulty: "
+msgstr "Arvutuslik raskusaste:"
+
+msgid "Number of moves instantly fillable by elimination: "
+msgstr "Välistamise teel vahetult täidetavate väljade arv: "
+
+msgid "Number of moves instantly fillable by filling: "
+msgstr "Vahetult täidetavate väljade arv: "
+
+msgid "Amount of trial-and-error required to solve: "
+msgstr "Lahendamiseks vajalikke proovimisi: "
+
+msgid "Puzzle Statistics"
+msgstr "Mõistatuse statistika"
+
+#. Our initial row...
+msgid "No Tracker"
+msgstr "Jälgijat pole"
+
+msgid "Clear all moves tracked by selected tracker."
+msgstr ""
+
+msgid "_Clear Others"
+msgstr ""
+
+msgid "Clear all moves not tracked by selected tracker."
+msgstr ""
+
+#, python-format
+msgid "Tracker %s"
+msgstr "Jälgija %s"
+
+#, python-format
+msgid "Last Played %(timeAgo)s"
+msgstr "Viimati mängitud %(timeAgo)s"
+
+#, python-format
+msgid "%(level)s puzzle"
+msgstr "%(level)s mõistatus"
+
+#, python-format
+msgid "Played for %(duration)s"
+msgstr "Mängitud %(duration)s"
+
+msgid "Working..."
+msgstr "Töötamine..."
+
+#, python-format
+msgid "%(n)s puzzle"
+msgid_plural "%(n)s puzzles"
+msgstr[0] "%(n)s mõistatus"
+msgstr[1] "%(n)s mõistatust"
+
+msgid "Stopped"
+msgstr "Seisatud"
+
+#, python-format
+msgid "Generated %(n)s out of %(total)s puzzle"
+msgid_plural "Generated %(n)s out of %(total)s puzzles"
+msgstr[0] "%(n)s mõistatus %(total)s-st valmis"
+msgstr[1] "%(n)s mõistatust %(total)s-st valmis"
+
+#, python-format
+msgid "Generated %(n)s puzzle"
+msgid_plural "Generated %(n)s puzzles"
+msgstr[0] "%(n)s mõistatus valmis"
+msgstr[1] "%(n)s mõistatust valmis"
+
+msgid "Very Hard"
+msgstr "Väga raske"
+
+msgid "Medium"
+msgstr "Keskmine"
+
+msgid "Do you really want to do this?"
+msgstr "Soovid sa seda teha?"
+
+msgid "Don't ask me this again."
+msgstr "Seda küsimust rohkem mitte küsida."
+
+#, python-format
+msgid "%(n)s year"
+msgid_plural "%(n)s years"
+msgstr[0] "%(n)s aasta"
+msgstr[1] "%(n)s aastat"
+
+#, python-format
+msgid "%(n)s month"
+msgid_plural "%(n)s months"
+msgstr[0] "%(n)s kuu"
+msgstr[1] "%(n)s kuud"
+
+#, python-format
+msgid "%(n)s week"
+msgid_plural "%(n)s weeks"
+msgstr[0] "%(n)s nädal"
+msgstr[1] "%(n)s nädalat"
+
+#, python-format
+msgid "%(n)s day"
+msgid_plural "%(n)s days"
+msgstr[0] "%(n)s päev"
+msgstr[1] "%(n)s päeva"
+
+#, python-format
+msgid "%(n)s hour"
+msgid_plural "%(n)s hours"
+msgstr[0] "%(n)s tund"
+msgstr[1] "%(n)s tundi"
+
+#, python-format
+msgid "%(n)s minute"
+msgid_plural "%(n)s minutes"
+msgstr[0] "%(n)s minut"
+msgstr[1] "%(n)s minutit"
+
+#, python-format
+msgid "%(n)s second"
+msgid_plural "%(n)s seconds"
+msgstr[0] "%(n)s sekund"
+msgstr[1] "%(n)s sekundit"
+
+#. Translators... this is a messay way of concatenating
+#. lists. In English we do lists this way: 1, 2, 3, 4, 5
+#. and 6. This set-up allows for the English system only.
+#. You can of course make your language only use commas or
+#. ands or spaces or whatever you like by translating both
+#. ", " and " and " with the same string.
+msgid " and "
+msgstr " ja "
+
+msgid ", "
+msgstr ", "
+
+msgid " "
+msgstr " "
+
+#. Then we're today
+#. within the minute
+#, python-format
+msgid "%(n)s second ago"
+msgid_plural "%(n)s seconds ago"
+msgstr[0] "%(n)s sekund tagasi"
+msgstr[1] "%(n)s sekundit tagasi"
+
+#, python-format
+msgid "%(n)s minute ago"
+msgid_plural "%(n)s minutes ago"
+msgstr[0] "%(n)s minut tagasi"
+msgstr[1] "%(n)s minutit tagasi"
+
+#. Translators, see strftime manual in order to translate %? format strings
+msgid "at %I:%M %p"
+msgstr "kell %H:%M"
+
+#. Translators, see strftime manual in order to translate %? format strings
+msgid "yesterday at %I:%M %p"
+msgstr "eile kell %H:%M"
+
+#. Translators, see strftime manual in order to translate %? format strings
+msgid "%A %I:%M %p"
+msgstr "%A, %H:%M"
+
+#. Translators, see strftime manual in order to translate %? format strings
+msgid "%B %e"
+msgstr "%e. %B"
+
+msgid "Mines"
+msgstr "Miiniväli"
+
+msgctxt "board size"
+msgid "Custom"
+msgstr "Kohandatud"
+
+#, c-format
+msgid "Flags: %d/%d"
+msgstr "Lipud: %d/%d"
+
+msgid "The Mines Have Been Cleared!"
+msgstr "Miiniväli on puhastatud!"
+
+msgid "Mines Scores"
+msgstr "Miinivälja tulemused"
+
+msgid "Size:"
+msgstr "Suurus:"
+
+msgid "Click a square, any square"
+msgstr "Klõpsa mõnel väljal"
+
+msgid "Maybe they're all mines ..."
+msgstr "Võib-olla on need kõik mineeritud..."
+
+msgid "Resizing and SVG support:"
+msgstr "Suuruse muutmise ja SVG tugi:"
+
+msgid "Faces:"
+msgstr "Näod:"
+
+msgid "Graphics:"
+msgstr "Graafika:"
+
+msgid ""
+"The popular logic puzzle minesweeper. Clear mines from a board using hints "
+"from squares you have already uncovered.\n"
+"\n"
+"Mines is a part of MATE Games."
+msgstr ""
+"Populaarne miiniotsimise mäng. Juba avatud väljade abil tuletatakse miine "
+"sisaldavad väljad.\n"
+"\n"
+"\"Miiniväli\" kuulub MATE mängude koosseisu."
+
+msgid "Field Size"
+msgstr "Välja suurus"
+
+msgid "Custom Size"
+msgstr "Kohandatud suurus"
+
+msgid "_Number of mines:"
+msgstr "_Miinide arv:"
+
+msgid "_Horizontal:"
+msgstr "_Horisontaalne:"
+
+msgid "_Vertical:"
+msgstr "_Vertikaalne:"
+
+msgid "Flags"
+msgstr "Lipud"
+
+msgid "_Use \"I'm not sure\" flags"
+msgstr "Kasutatakse _lippu \"Ma pole kindel\"."
+
+msgid "Warnings"
+msgstr "Hoiatused"
+
+msgid "_Use \"Too many flags\" warning"
+msgstr "Kasutatakse _hoiatust \"Liiga palju lippe\"."
+
+msgid "Mines Preferences"
+msgstr "Miinivälja eelistused"
+
+msgid "Width of grid"
+msgstr "Ruudu laius"
+
+msgid "Height of grid"
+msgstr "Ruudu kõrgus"
+
+msgid "Number of mines"
+msgstr "Miinide hulk"
+
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Laua suurus (0-2 = väike-suur, 3=kohandatud)"
+
+msgid "X location of window"
+msgstr "Akna asukoht X-teljel"
+
+msgid "Y location of window"
+msgstr "Akna asukoht Y-teljel"
+
+msgid "Press to Resume"
+msgstr "Jätkamiseks vajuta"
+
+msgid "Time: "
+msgstr "Aeg: "
+
+msgid "Clear hidden mines from a minefield"
+msgstr "Miinivälja puhastamine sinna peidetud miinidest"
+
+msgid "Board size"
+msgstr "Mängulaua suurus"
+
+msgid "Enable automatic placing of flags"
+msgstr "Lippude automaatse paigutamise lubamine"
+
+msgid "Number of columns in a custom game"
+msgstr "Kohandatud mängulaua veergude arv"
+
+msgid "Number of rows in a custom game"
+msgstr "Kohandatud mängulaua ridade arv"
+
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "Kui märgitud, siis saab mänguvälju tundmatuks märkida."
+
+msgid "Set to true to enable warning icons when too many flags are placed."
+msgstr ""
+"Kui märgitud, siis on liiga suure lippude hulga kohta käivad hoiatused "
+"lubatud."
+
+msgid ""
+"Set to true to have gnomine automatically flag squares as mined when enough "
+"squares are revealed"
+msgstr ""
+
+msgid "The number of mines in a custom game"
+msgstr "Kohandatud mängus olevate miinide arv"
+
+msgid "Use the unknown flag"
+msgstr "Tundmatu välja lipu kasutamine"
+
+msgid "Warning about too many flags"
+msgstr "Hoiatus liiga paljude lippude korral"
+
+msgid ""
+"Unable to find required images.\n"
+"\n"
+"Please check your mate-games installation."
+msgstr ""
+"Vajalikku pilti pole võimalik leida.\n"
+"\n"
+"Palun kontrolli oma mate-games paigaldust"
+
+msgid ""
+"Required images have been found, but refused to load.\n"
+"\n"
+"Please check your installation of mate-games and its dependencies."
+msgstr ""
+
+msgid "Could not load images"
+msgstr "Pilte pole võimalik laadida"
+
+msgid "Tetravex"
+msgstr "Tetravex"
+
+#. Translators: in-game numbers, replaceable with single-character local ideomrams
+msgctxt "number"
+msgid "0"
+msgstr "0"
+
+msgctxt "number"
+msgid "1"
+msgstr "1"
+
+msgctxt "number"
+msgid "2"
+msgstr "2"
+
+msgctxt "number"
+msgid "3"
+msgstr "3"
+
+msgctxt "number"
+msgid "4"
+msgstr "4"
+
+msgctxt "number"
+msgid "5"
+msgstr "5"
+
+msgctxt "number"
+msgid "6"
+msgstr "6"
+
+msgctxt "number"
+msgid "7"
+msgstr "7"
+
+msgctxt "number"
+msgid "8"
+msgstr "8"
+
+msgctxt "number"
+msgid "9"
+msgstr "9"
+
+msgid "2×2"
+msgstr "2x2"
+
+msgid "3×3"
+msgstr "3x3"
+
+msgid "4×4"
+msgstr "4x4"
+
+msgid "5×5"
+msgstr "5x5"
+
+msgid "6×6"
+msgstr "6x6"
+
+msgid "_Size"
+msgstr "_Suurus"
+
+msgid "Sol_ve"
+msgstr "La_henda"
+
+msgid "Solve the game"
+msgstr "Mängu lahendamine"
+
+msgid "_Up"
+msgstr "Ü_les"
+
+msgid "Move the pieces up"
+msgstr "Liiguta tükid üles"
+
+msgid "_Left"
+msgstr "_Vasakule"
+
+msgid "Move the pieces left"
+msgstr "Liiguta tükid vasakule"
+
+msgid "_Right"
+msgstr "_Paremale"
+
+msgid "Move the pieces right"
+msgstr "Liiguta tükid paremale"
+
+msgid "_Down"
+msgstr "_Alla"
+
+msgid "Move the pieces down"
+msgstr "Liiguta tükid alla"
+
+msgid "_2×2"
+msgstr "_2x2"
+
+msgid "Play on a 2×2 board"
+msgstr "Mäng 2x2 laual"
+
+msgid "_3×3"
+msgstr "_3x3"
+
+msgid "Play on a 3×3 board"
+msgstr "Mäng 3x3 laual"
+
+msgid "_4×4"
+msgstr "_4x4"
+
+msgid "Play on a 4×4 board"
+msgstr "Mäng 4x4 laual"
+
+msgid "_5×5"
+msgstr "_5x5"
+
+msgid "Play on a 5×5 board"
+msgstr "Mäng 5x5 laual"
+
+msgid "_6×6"
+msgstr "_6x6"
+
+msgid "Play on a 6×6 board"
+msgstr "Mäng 6x6 laual"
+
+msgid "Tile _Colours"
+msgstr "_Värvilised klotsid"
+
+msgid "Size of board (2-6)"
+msgstr "Laua suurus (2-6)"
+
+msgid "SIZE"
+msgstr "SUURUS"
+
+msgid "Puzzle solved! Well done!"
+msgstr "Mäng lahendatud! Hästi tehtud!"
+
+msgid "Puzzle solved!"
+msgstr "Mäng lahendatud"
+
+msgid "Tetravex Scores"
+msgstr "Tetravex'i tulemused"
+
+msgid "Game paused"
+msgstr "Mängupaus"
+
+#, c-format
+msgid "Playing %d×%d board"
+msgstr "Mäng %dx%d laual"
+
+msgid ""
+"MATE Tetravex is a simple puzzle where pieces must be positioned so that "
+"the same numbers are touching each other.\n"
+"\n"
+"Tetravex is a part of MATE Games."
+msgstr ""
+"MATE Tetravex on lihtne mõistatus, kus tuleb mänguklotsid asetada nii, et "
+"kahe klotsi küljenumbrid kattuks.\n"
+"\n"
+"\"Tetravex\" kuulub MATE mängude koosseisu."
+
+msgid "Complete the puzzle by matching numbered tiles"
+msgstr "Numbritega mänguklotside vastavusse kombineerimise mäng"
+
+msgid "A flag to enable coloured tiles."
+msgstr "Võti värviliste klotside lubamiseks."
+
+msgid "Control coloured tiles"
+msgstr ""
+
+msgid ""
+"Select whether to drag the tiles or to click on the source then the "
+"destination."
+msgstr ""
+"Kui märgitud, siis klotse tõstetakse teise kohta lohistamise abil, vastasel "
+"juhul aga klõpsamise abil."
+
+msgid "The size of the playing grid"
+msgstr "Mänguruudustiku suurus"
+
+msgid ""
+"The value of this key is used to decide the size of the playing grid. The "
+"valid values are 2 to 8, anything else gets set to 3."
+msgstr ""
+"Selle võtme väärtust kasutatakse mängulaua suuruse määramiseks. Võimalikud "
+"väärtused on vahemikus 2...8, ülejäänud väärtuste puhul võetakse väärtuseks "
+"3."
+
+msgid "Klotski"
+msgstr "Klotski"
+
+msgid "Only 18 steps"
+msgstr "Ainult 18 sammu"
+
+#. puzzle name
+msgid "Daisy"
+msgstr "Karikakar"
+
+#. puzzle name
+msgid "Violet"
+msgstr "Violetne"
+
+#. puzzle name
+msgid "Poppy"
+msgstr "Moon"
+
+#. puzzle name
+msgid "Pansy"
+msgstr "Võõrasema"
+
+#. puzzle name
+msgid "Snowdrop"
+msgstr "Lumikelluke"
+
+#. puzzle name - sometimes called "Le'Ane Rouge"
+msgid "Red Donkey"
+msgstr "Punane eesel"
+
+#. puzzle name
+msgid "Trail"
+msgstr "Rada"
+
+#. puzzle name
+msgid "Ambush"
+msgstr "Varitsus"
+
+#. puzzle name
+msgid "Agatka"
+msgstr ""
+
+#. puzzle name
+msgid "Success"
+msgstr "Edu"
+
+#. puzzle name
+msgid "Bone"
+msgstr "Kont"
+
+#. puzzle name
+msgid "Fortune"
+msgstr "Vedamine"
+
+#. puzzle name
+msgid "Fool"
+msgstr "Narrike"
+
+#. puzzle name
+msgid "Solomon"
+msgstr "Saalomon"
+
+#. puzzle name
+msgid "Cleopatra"
+msgstr "Kleopatra"
+
+#. puzzle name
+msgid "Shark"
+msgstr "Hai"
+
+#. puzzle name
+msgid "Rome"
+msgstr "Rooma"
+
+#. puzzle name
+msgid "Pennant Puzzle"
+msgstr "Vimplimõistatus"
+
+#. puzzle name
+msgid "Ithaca"
+msgstr "Ithaca"
+
+#. puzzle name
+msgid "Pelopones"
+msgstr "Pelopones"
+
+#. puzzle name
+msgid "Transeuropa"
+msgstr "Transeuroopa"
+
+#. puzzle name
+msgid "Lodzianka"
+msgstr ""
+
+#. puzzle name
+msgid "Polonaise"
+msgstr "Polonees"
+
+#. puzzle name
+msgid "Baltic Sea"
+msgstr "Balti meri"
+
+#. puzzle name
+msgid "American Pie"
+msgstr "Ameerika õunakook"
+
+#. puzzle name
+msgid "Traffic Jam"
+msgstr "Liiklusummik"
+
+#. puzzle name
+msgid "Sunshine"
+msgstr "Päikesepaise"
+
+#. puzzle name
+msgid "Only 18 Steps"
+msgstr "Ainult 18 sammu"
+
+#. set of puzzles
+msgid "HuaRong Trail"
+msgstr ""
+
+#. set of puzzles
+msgid "Challenge Pack"
+msgstr "Väljakutsete pakk"
+
+#. set of puzzles
+msgid "Skill Pack"
+msgstr "Vilunute pakk"
+
+msgid "_Restart Puzzle"
+msgstr "_Alusta mõistatust uuesti"
+
+msgid "Next Puzzle"
+msgstr "Järgmine mõistatus"
+
+msgid "Previous Puzzle"
+msgstr "Eelmine mõistatus"
+
+msgid "Level completed."
+msgstr "Tase lõpetatud."
+
+msgid "The Puzzle Has Been Solved!"
+msgstr "Mõistatus on lahendatud!"
+
+msgid "Klotski Scores"
+msgstr "Klotski tulemused"
+
+msgid "Puzzle:"
+msgstr "Mõistatus:"
+
+msgid ""
+"The theme for this game failed to render.\n"
+"\n"
+"Please check that Klotski is installed correctly."
+msgstr ""
+"Tõrge selle mängu teema renderdamisel.\n"
+"\n"
+"Palun veendu, et Klotski korrektselt paigaldatud."
+
+#, c-format
+msgid ""
+"Could not find the image:\n"
+"%s\n"
+"\n"
+"Please check that Klotski is installed correctly."
+msgstr ""
+"Pilti pole võimalik leida:\n"
+"%s\n"
+"\n"
+"Palun veendu, et Klotski on korrektselt paigaldatud."
+
+#, c-format
+msgid "Moves: %d"
+msgstr "Käike: %d"
+
+msgid ""
+"Sliding Block Puzzles\n"
+"\n"
+"Klotski is a part of MATE Games."
+msgstr ""
+"Klotside nihutamise mõistatus\n"
+"\n"
+"\"Klotski\" kuulub MATE mängude koosseisu."
+
+msgid "Slide blocks to solve the puzzle"
+msgstr "Kivirahnude liigutamisega lahendatav mõistatus"
+
+msgid "The number of the puzzle being played."
+msgstr "Lahendatava mõistatuse number."
+
+msgid "The puzzle in play"
+msgstr "Käimasoleva mõistatuse number"
+
+msgid "Already used! Where do you want to put that?"
+msgstr "Juba kasutusel! Kuhu Te soovite selle panna?"
+
+#, c-format
+msgid "Score: %d"
+msgstr "Punkte: %d"
+
+#, c-format
+msgid "Field used"
+msgstr "Kasutatud väljad"
+
+#. Arrgh - lets all use the same tabs under emacs:
+#. Local Variables:
+#. tab-width: 8
+#. c-basic-offset: 8
+#. indent-tabs-mode: nil
+#. End:
+#.
+msgid "Beat the odds in a poker-style dice game"
+msgstr "Pokkerilaadne täringumäng"
+
+msgid "Tali"
+msgstr "Tali"
+
+msgid ""
+"Choose whether or not to insert a delay between the computer's dice rolls so "
+"the player can follow what it is doing."
+msgstr ""
+"Kas arvuti poolt sooritatavate täringuvisete vahel peab olema paus, et "
+"mängija saaks täpse ülevaate mängu käigust."
+
+msgid "Delay between rolls"
+msgstr "Viivitus visete vahel"
+
+msgid "Display the computer's thoughts"
+msgstr "Arvuti mõtete näitamine"
+
+msgid ""
+"If set to true, a dump of the AI's working will be done to standard output."
+msgstr "Kui märgitud, siis AI töö käik väljastatakse standardväljundisse."
+
+msgid "Regular"
+msgstr "Tavaline"
+
+msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+msgstr "[Inimene,Siil,Rästik,Karu,Jänes,Hunt]"
+
+msgid "Delay computer moves"
+msgstr "Viivita arvuti käikudega"
+
+msgid "Display computer thoughts"
+msgstr "Arvuti mõtete näitamine"
+
+msgid "Number of computer opponents"
+msgstr "Arvutimängijate arv"
+
+msgid "Number of human opponents"
+msgstr "Inimmängijate arv"
+
+msgid "Game choice: Regular or Colors"
+msgstr "Mägnu valimine: tavaline või värviline"
+
+msgid "STRING"
+msgstr "STRING"
+
+msgid "Number of computer-only games to play"
+msgstr ""
+
+msgid "Number of trials for each roll for the computer"
+msgstr ""
+
+msgctxt "game type"
+msgid "Regular"
+msgstr "Tavaline"
+
+msgctxt "game type"
+msgid "Colors"
+msgstr "Värviline"
+
+msgid "Roll all!"
+msgstr "Veereta kõiki!"
+
+msgid "Roll!"
+msgstr "Veereta!"
+
+msgid "The game is a draw!"
+msgstr "Mäng lõppes viigiga!"
+
+msgid "Tali Scores"
+msgstr "Tali tulemused"
+
+#, c-format
+msgid "%s wins the game with %d point"
+msgid_plural "%s wins the game with %d points"
+msgstr[0] "%s võitis mängu %d punktiga"
+msgstr[1] "%s võitis mängu %d punktiga"
+
+#, c-format
+msgid "Computer playing for %s"
+msgstr "Arvuti mängib mängija %s eest"
+
+#, c-format
+msgid "%s! -- You're up."
+msgstr "%s, Sul läheb hästi!"
+
+msgid "Select dice to roll or choose a score slot."
+msgstr "Vali täring, mida veeretada, ning vali tulemuse koht."
+
+msgid "Roll"
+msgstr "Veereta"
+
+msgid "You are only allowed three rolls. Choose a score slot."
+msgstr "Veeretada saab ainult kolm korda. Vali tulemuse koht."
+
+msgid "MATE version (1998):"
+msgstr "MATE versioon (1998):"
+
+msgid "Console version (1992):"
+msgstr "Konsooliversioon (1992)"
+
+msgid "Colors game and multi-level AI (2006):"
+msgstr "Värviline mäng ja mitmetasemeline AI (2006):"
+
+msgid ""
+"A variation on poker with dice and less money.\n"
+"\n"
+"Tali is a part of MATE Games."
+msgstr ""
+"Pokkerilaadne mäng täringu ja vähese rahaga.\n"
+"\n"
+"\"Tali\" kuulub MATE mängude koosseisu."
+
+msgid "Current game will complete with original number of players."
+msgstr "Käesolev mäng lõpeb algse mängijate arvuga."
+
+msgid "Tali Preferences"
+msgstr "Tali eelistused"
+
+msgid "Human Players"
+msgstr "Inimesi mängimas"
+
+msgid "_Number of players:"
+msgstr "_Mängijate arv:"
+
+msgid "Computer Opponents"
+msgstr "Arvutimängijaid"
+
+#. --- Button ---
+msgid "_Delay between rolls"
+msgstr "_Viivitus visete vahel"
+
+msgid "N_umber of opponents:"
+msgstr "Va_staste arv:"
+
+msgid "_Difficulty:"
+msgstr "_Raskusaste:"
+
+msgctxt "difficulty"
+msgid "Easy"
+msgstr "Lihtne"
+
+msgctxt "difficulty"
+msgid "Medium"
+msgstr "Keskmine"
+
+msgctxt "difficulty"
+msgid "Hard"
+msgstr "Raske"
+
+#. --- PLAYER NAMES FRAME ----
+msgid "Player Names"
+msgstr "Mängijate nimed"
+
+msgid "1s [total of 1s]"
+msgstr "1 [ühtede summa]"
+
+msgid "2s [total of 2s]"
+msgstr "2 [kahtede summa]"
+
+msgid "3s [total of 3s]"
+msgstr "3 [kolmede summa]"
+
+msgid "4s [total of 4s]"
+msgstr "4 [neljade summa]"
+
+msgid "5s [total of 5s]"
+msgstr "5 [viite summa]"
+
+msgid "6s [total of 6s]"
+msgstr "6 [kuute summa]"
+
+#. End of upper panel
+msgid "3 of a Kind [total]"
+msgstr "3 ühesugust [summa]"
+
+msgid "4 of a Kind [total]"
+msgstr "4 ühesugust [summa]"
+
+msgid "Full House [25]"
+msgstr "Täis maja [25]"
+
+msgid "Small Straight [30]"
+msgstr "Lühike tee [30]"
+
+msgid "Large Straight [40]"
+msgstr "Pikk tee [40]"
+
+msgid "5 of a Kind [50]"
+msgstr "5 ühesugust [50]"
+
+msgid "Chance [total]"
+msgstr "Võimalus [kokku]"
+
+#. End of lower panel
+msgid "Lower Total"
+msgstr "Alumine summa"
+
+msgid "Grand Total"
+msgstr "Kogusumma"
+
+#. Need to squish between upper and lower pannel
+msgid "Upper total"
+msgstr "Ülemine summa"
+
+msgid "Bonus if >62"
+msgstr "Preemia kui >62"
+
+#. End of upper panel
+msgid "2 pair Same Color [total]"
+msgstr "2 samavärvilist paari [kogusumma]"
+
+msgid "Full House [15 + total]"
+msgstr "Täis maja [15 + kogusumma]"
+
+msgid "Full House Same Color [20 + total]"
+msgstr "Täis maja, samavärviline [20 + kogusumma]"
+
+msgid "Flush (all same color) [35]"
+msgstr "Kõik samavärvilised [35]"
+
+msgid "4 of a Kind [25 + total]"
+msgstr "4 ühesugust [25 + kogusumma]"
+
+msgid "5 of a Kind [50 + total]"
+msgstr "5 ühesugust [50 + kogusumma]"
+
+msgid "Choose a score slot."
+msgstr "Vali tulemuse koht."
+
+msgid "5 of a Kind [total]"
+msgstr "5 ühesugust [summa]"
+
+msgid "Iagno"
+msgstr "Iagno"
+
+msgid ""
+"A disk flipping game derived from Reversi.\n"
+"\n"
+"Iagno is a part of MATE Games."
+msgstr ""
+"Reversi'st tuletatud kivide pööramise mäng.\n"
+"\n"
+"\"Iagno\" kuulub MATE mängude koosseisu."
+
+msgid "Invalid move."
+msgstr "Lubamatu käik."
+
+#, c-format
+msgid "%.2d"
+msgstr "%.2d"
+
+msgid "It is your turn to place a dark piece"
+msgstr "Sinu käik tumedate nuppudega"
+
+msgid "It is your turn to place a light piece"
+msgstr "Sinu käik heledate nuppudega"
+
+#, c-format
+msgid "Waiting for %s to move"
+msgstr "Ootamine kuni %s käib"
+
+msgid "Dark's move"
+msgstr "Tumedate käik"
+
+msgid "Light's move"
+msgstr "Heledate käik"
+
+msgid "Dark:"
+msgstr "Tume:"
+
+msgid "Light:"
+msgstr "Hele:"
+
+msgid "Welcome to Iagno!"
+msgstr "Tere tulemast Iagno mängu!"
+
+msgid "Dominate the board in a classic version of Reversi"
+msgstr "Mägulaual ülekaalu saavutamine klassikalise mängus Reversi"
+
+msgid "Light player wins!"
+msgstr "Hele võitis!"
+
+msgid "Dark player wins!"
+msgstr "Tume võitis!"
+
+msgid "The game was a draw."
+msgstr "Mäng lõppes viigiga."
+
+msgid "Light must pass, Dark's move"
+msgstr "Hele peab ootama, tume käib"
+
+msgid "Dark must pass, Light's move"
+msgstr "Tume peab ootama, hele käib"
+
+msgid "Iagno Preferences"
+msgstr "Iagno eelistused"
+
+msgid "_Use quick moves"
+msgstr "_Kiired käigud"
+
+msgid "Animation"
+msgstr "Animatsioon"
+
+msgid "None"
+msgstr "Puudub"
+
+msgid "Partial"
+msgstr "Osaline"
+
+msgid "Complete"
+msgstr "Täielik"
+
+msgid "_Stagger flips"
+msgstr ""
+
+msgid "S_how grid"
+msgstr "_Ruudustik nähtaval"
+
+msgid "_Flip final results"
+msgstr "Lõpptulemuste _võrdlemine"
+
+msgid "_Tile set:"
+msgstr "_Nupud:"
+
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Fail pole korrektne .desktop-fail"
+
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Töölauafaili tundmatu versioon '%s'"
+
+#, c-format
+msgid "Starting %s"
+msgstr "Käivitamine: %s"
+
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Rakendus ei nõustu käsurealt määratud dokumentidega"
+
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Tundmatu käivitusvalik: %d"
+
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Dokumendi URI-sid pole võimalik 'Liik=Viit' tüüpi töölauakirjetele edastada"
+
+#, c-format
+msgid "Not a launchable item"
+msgstr "Pole käivitatav kirje"
+
+msgid "Disable connection to session manager"
+msgstr "Seansihalduriga ühendumise keelamine"
+
+msgid "Specify file containing saved configuration"
+msgstr "Salvestatud seadistusi sisaldava faili määramine"
+
+msgid "FILE"
+msgstr "FAIL"
+
+msgid "Specify session management ID"
+msgstr "Seansihalduse ID määramine"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Session management options:"
+msgstr "Seansihalduse valikud:"
+
+msgid "Show session management options"
+msgstr "Seansihalduse valikute näitamine"
+
+msgid "Unknown Command"
+msgstr "Tundmatu käsk"
+
+msgid "X Padding"
+msgstr "X-polsterdus"
+
+msgid "Extra space to add to the width allocation."
+msgstr "Laiusele lisatav lisaruum"
+
+msgid "Extra space to add to the height allocation."
+msgstr "Kõrgusele lisatav lisaruum"
+
+msgid "Width Multiple"
+msgstr "Laiuse kordne"
+
+msgid "What multiple to constrain the width to."
+msgstr "Mitmega peab laiust korrutama."
+
+msgid "Height Multiple"
+msgstr "Kõrguse kordne"
+
+msgid "What multiple to constrain the height to."
+msgstr "Mitmega peab kõrgust korrutama."
+
+msgid "X align"
+msgstr "Rõhtjoondus"
+
+msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+msgstr "Rõhtjoondus alates nullist (vasakul) kuni üheni (paremal)"
+
+msgid "Y align"
+msgstr "Püstjoondus"
+
+msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+msgstr "Püstjoondus alates nullist (üleval) kuni üheni (all)"
+
+#. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
+#, c-format
+msgid "Help file “%s.%s” not found"
+msgstr "Abiteabe faili „%s.%s” ei leitud"
+
+msgid "Could not show link"
+msgstr "Viita pole võimalik näidata"
+
+#. Note that this assumes the default style is plain.
+msgid "Score"
+msgstr "Tulemus"
+
+#. Translators: this is for a minutes, seconds time display.
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "End the current game"
+msgstr "Käesoleva mängu lõpetamine"
+
+msgid "Toggle fullscreen mode"
+msgstr "Täisekraanivaate sisse- ja väljalülitamine"
+
+msgid "Leave fullscreen mode"
+msgstr "Täisekraanvaatest lahkumine"
+
+msgid "End the current network game and return to network server"
+msgstr "Praeguse võrgumängu lõpetamine ja naasmine võrguserverisse"
+
+msgid "Pause the game"
+msgstr "Mängu peatamine"
+
+msgid "Show a list of players in the network game"
+msgstr "Võrgumängus osalevate mängijate nimekirja näitamine"
+
+msgid "Resume the paused game"
+msgstr "Peatatud mängu jätkamine"
+
+msgid "View the scores"
+msgstr "Tulemuste vaatamine"
+
+msgid "Configure the game"
+msgstr "Mängu seadistamine"
+
+msgid "Quit this game"
+msgstr "Mängu lõpetamine"
+
+msgid "_Fullscreen"
+msgstr "_Täisekraan"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+msgid "_New"
+msgstr "_Uus"
+
+msgid "_Redo Move"
+msgstr "T_aasta käik"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+msgid "_Reset"
+msgstr "_Lähtesta"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+msgid "_Restart"
+msgstr "_Alusta uuesti"
+
+msgid "_Deal"
+msgstr "_Jaga"
+
+msgid "_Leave Fullscreen"
+msgstr "_Välju täisekraanvaatest"
+
+msgid "L_eave Game"
+msgstr "_Lahku mängust"
+
+msgid "Player _List"
+msgstr "Mängijate _nimekiri"
+
+msgid "_Pause"
+msgstr "_Peata"
+
+msgid "Res_ume"
+msgstr "_Jätka"
+
+msgid "_Scores"
+msgstr "_Tulemused"
+
+msgid "_End Game"
+msgstr "_Lõpeta mäng"
+
+#. Work around maemo brokenness wrt. stock item translations.
+#. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
+msgid "_About"
+msgstr "_Programmist lähemalt"
+
+msgid "_Cancel"
+msgstr "_Tühista"
+
+msgid "_Close"
+msgstr "Sul_ge"
+
+msgid "_OK"
+msgstr "_Olgu"
+
+#. %s is replaced with the name of the game in mate-games.
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s on vaba tarkvara. Te võite seda edasi levitada ja/või muuta vastavalt GNU "
+"Üldise Avaliku Litsentsi tingimustele, nagu need on Vaba Tarkvara Fondi "
+"poolt avaldatud; kas Litsentsi versioon number %d või (vastavalt Teie "
+"valikule) ükskõik milline hilisem versioon."
+
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos programmiga %"
+"s; kui ei, siis vaata <http://www.gnu.org/licenses/>."
+
+msgid "Lights Off"
+msgstr "Tuled maha"
+
+msgid "Turn off all the lights"
+msgstr "Kõikide tulede väljalülitamise mäng"
+
+msgid ""
+"If enabled, the default background color from the user's default MATE theme "
+"is used to draw the tiles."
+msgstr ""
+
+msgid "The current score"
+msgstr "Praegune tulemus"
+
+msgid "The theme to use"
+msgstr "Kasutatav teema"
+
+msgid "The title of the tile theme to use."
+msgstr "Kasutatava nuputeema pealkiri."
+
+msgid "The users's most recent score."
+msgstr "Kasutajate viimane tulemus."
+
+msgid "Whether or not to use the MATE theme colors"
+msgstr "Kas MATE teemavärvused on kasutusel või mitte"
+
+msgid "Look & Feel"
+msgstr "Välimus ja tunnetus"
+
+msgid "Theme:"
+msgstr "Teema:"
+
+msgid "Use colors from MATE theme"
+msgstr "MATE teema värvuste kasutamine"
+
+#| msgid ""
+#| "Sliding Block Puzzles\n"
+#| "\n"
+#| "Klotski is a part of MATE Games."
+msgid ""
+"Turn off all the lights\n"
+"\n"
+"Lights Off is a part of MATE Games."
+msgstr ""
+
+msgid "Copyright  2009 Tim Horton"
+msgstr "Autoriõigus  2009 Tim Horton"
+
+msgid ""
+"The selected theme failed to render.\n"
+"\n"
+"Please check that Mahjongg is installed correctly."
+msgstr ""
+"Tõrge valitud teema renderdamisel.\n"
+"\n"
+"Palun veendu, et Mahjongg on korrektselt paigaldatud."
+
+#, c-format
+msgid ""
+"Unable to render file:\n"
+"'%s'\n"
+"\n"
+"Please check that Mahjongg is installed correctly."
+msgstr ""
+"Faili pole võimalik renderdada:\n"
+"'%s'\n"
+"\n"
+"Palun veendu, et Mahjongg on korrektselt paigaldatud."
+
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+msgid "Could not load tile set"
+msgstr "Nuppe pole võimalik laadida"
+
+msgid "Do you want to start a new game with this map?"
+msgstr "Kas soovid alustada määratud ladumisviisiga uut mängu?"
+
+msgid "If you continue playing the next game will use the new map."
+msgstr ""
+"Kui sa praegu mängimist jätkad, siis alustatakse järgmist mängu uue "
+"ladumisviisiga."
+
+msgid "_Continue playing"
+msgstr "_Jätka mängimist"
+
+msgid "Use _new map"
+msgstr "Kasuta _uut ladumisviisi"
+
+msgid "There are no more moves."
+msgstr "Rohkem käike ei ole."
+
+msgid "_New game"
+msgstr "_Uus mäng"
+
+msgid "_Shuffle"
+msgstr ""
+
+msgid "Mahjongg Scores"
+msgstr "Mahjongg'i tulemused"
+
+msgid "Mahjongg Preferences"
+msgstr "Mahjongg'i eelistused"
+
+msgid "Tiles"
+msgstr "Klotsid"
+
+msgid "Maps"
+msgstr "Ladumisviis"
+
+msgid "_Select map:"
+msgstr "Ladumisviisi _valik:"
+
+msgid "Colors"
+msgstr "Värvid"
+
+msgid "Maps:"
+msgstr "Ladumisviisid:"
+
+msgid "Tiles:"
+msgstr "Kivid:"
+
+msgid ""
+"A matching game played with Mahjongg tiles.\n"
+"\n"
+"Mahjongg is a part of MATE Games."
+msgstr ""
+"Mahjongg on klotside vahel sobivuste otsimise mäng.\n"
+"\n"
+"\"Mahjongg\" kuulub MATE mängude koosseisu."
+
+#, c-format
+msgid "Mahjongg - %s"
+msgstr "Mahjongg - %s"
+
+msgid "Restart the current game"
+msgstr "Käesoleva mängu taasalustamine"
+
+msgid "Redo the last move"
+msgstr "Unustatud käigu taastamine"
+
+msgid "Show a hint"
+msgstr "Vihje näitamine"
+
+msgid "Tiles Left:"
+msgstr "Klotse järel:"
+
+msgid "Moves Left:"
+msgstr "Käike järel:"
+
+msgid "Remove matching pairs of tiles."
+msgstr "Eemalda vastavuses olev klotsipaar."
+
+msgid "Disassemble a pile of tiles by removing matching pairs"
+msgstr "Mängukivide kuhja lahtiharutamine sobivate kivide leidmise teel"
+
+msgctxt "mahjongg map name"
+msgid "Easy"
+msgstr "Lihtne"
+
+#.
+#. * Translatable strings file generated by get_titles.pl.
+#. * Add this file to your project's POTFILES.in.
+#. * DO NOT compile it as part of your application.
+#.
+msgctxt "mahjongg map name"
+msgid "The Ziggurat"
+msgstr "Ziggurat"
+
+msgctxt "mahjongg map name"
+msgid "Four Bridges"
+msgstr "Neli silda"
+
+msgctxt "mahjongg map name"
+msgid "Cloud"
+msgstr "Pilv"
+
+msgctxt "mahjongg map name"
+msgid "Tic-Tac-Toe"
+msgstr "Trips-traps-trull"
+
+msgctxt "mahjongg map name"
+msgid "Red Dragon"
+msgstr "Punane draakon"
+
+msgctxt "mahjongg map name"
+msgid "Pyramid's Walls"
+msgstr "Püramiidi seinad"
+
+msgctxt "mahjongg map name"
+msgid "Confounding Cross"
+msgstr "Segiaetud rist"
+
+msgctxt "mahjongg map name"
+msgid "Difficult"
+msgstr "Keeruline"
+
+msgid "Swell Foop"
+msgstr ""
+
+msgid "Board size:"
+msgstr "Mängulaua suurus:"
+
+msgid "Number of colors:"
+msgstr "Värvuste arv"
+
+msgid "Zealous Animation"
+msgstr ""
+
+msgid "Clear the screen by removing groups of colored and shaped tiles"
+msgstr ""
+"Ekraani puhastamine värviliste pallide ja erikujuliste klotside grupeerimise "
+"teel"
+
+msgid "Board color count"
+msgstr "Mängulaua värvuste arv"
+
+msgid "The number of colors of tiles to use in the game."
+msgstr "Mängunuppude värvuste arv."
+
+msgid "The size of the game board."
+msgstr "Mängulaua suurus."
+
+msgid "Use more flashy, but slower, animations."
+msgstr "Edevamate, kuid selle võrra aeglasemate animatsioonide kasutamine."
+
+msgid "Zealous animation"
+msgstr "Ägedad animatsioonid"
+
+msgid ""
+"I want to play that game! You know, they all go whirly-round and you click "
+"on them and they vanish!\n"
+"\n"
+"Swell Foop is a part of MATE Games."
+msgstr ""
+
+#, c-format
+msgid "%d point"
+msgid_plural "%d points"
+msgstr[0] "%d punkt"
+msgstr[1] "%d punkti"
+
+#| msgid "Robots Scores"
+msgid "Swell Foop Scores"
+msgstr ""
+
+#| msgid "No points"
+msgid "points"
+msgstr "punkte pole"
+
+msgid "Small"
+msgstr "Väike"
+
+msgid "Large"
+msgstr "Suur"

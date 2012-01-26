@@ -1,0 +1,341 @@
+<mateconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/auto_save_interval</key>
+      <applyto>/apps/mate-sudoku/auto_save_interval</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>60</default>
+      <locale name="C">
+        <short>The number of seconds between automatic saves</short>
+        <long>The number of seconds between automatic saves</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/number_of_sudokus_to_generate</key>
+      <applyto>/apps/mate-sudoku/number_of_sudokus_to_generate</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>10</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_already_played_games</key>
+      <applyto>/apps/mate-sudoku/print_already_played_games</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Print games that have been played</short>
+        <long>Print games that have been played</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/mark_printed_as_played</key>
+      <applyto>/apps/mate-sudoku/mark_printed_as_played</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Mark printed games as played</short>
+        <long>Mark printed games as played</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/group_size</key>
+      <applyto>/apps/mate-sudoku/group_size</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>9</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_target_easy</key>
+      <applyto>/apps/mate-sudoku/generate_target_easy</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_target_medium</key>
+      <applyto>/apps/mate-sudoku/generate_target_medium</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_target_hard</key>
+      <applyto>/apps/mate-sudoku/generate_target_hard</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_target_veryHard</key>
+      <applyto>/apps/mate-sudoku/generate_target_veryHard</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_easy</key>
+      <applyto>/apps/mate-sudoku/print_easy</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_medium</key>
+      <applyto>/apps/mate-sudoku/print_medium</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_hard</key>
+      <applyto>/apps/mate-sudoku/print_hard</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_very_hard</key>
+      <applyto>/apps/mate-sudoku/print_very_hard</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_puzzles_in_background</key>
+      <applyto>/apps/mate-sudoku/generate_puzzles_in_background</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short>Generate new puzzles in the background</short>
+        <long>Generate new puzzles in the background</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/minimum_number_of_new_puzzles</key>
+      <applyto>/apps/mate-sudoku/minimum_number_of_new_puzzles</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>90</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/difficulty</key>
+      <applyto>/apps/mate-sudoku/difficulty</applyto>
+      <owner>mate-sudoku</owner>
+      <type>float</type>
+      <default>0.0</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/width</key>
+      <applyto>/apps/mate-sudoku/width</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>700</default>
+      <locale name="C">
+        <short>Width of application window in pixels</short>
+        <long>Width of application window in pixels</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/height</key>
+      <applyto>/apps/mate-sudoku/height</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>675</default>
+      <locale name="C">
+        <short>Height of application window in pixels</short>
+        <long>Height of application window in pixels</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/print_multiple_sudokus_to_print</key>
+      <applyto>/apps/mate-sudoku/print_multiple_sudokus_to_print</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>4</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/highlight</key>
+      <applyto>/apps/mate-sudoku/highlight</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Show hint highlights</short>
+        <long>Show hint highlights</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/show_tracker</key>
+      <applyto>/apps/mate-sudoku/show_tracker</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/bg_color</key>
+      <applyto>/apps/mate-sudoku/bg_color</applyto>
+      <owner>mate-sudoku</owner>
+      <type>string</type>
+      <default>black</default>
+      <locale name="C">
+        <short>Color of the grid border</short>
+        <long>Color of the grid border</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/show_toolbar</key>
+      <applyto>/apps/mate-sudoku/show_toolbar</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short>Show the application toolbar</short>
+        <long>Show the application toolbar</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/show_impossible_implications</key>
+      <applyto>/apps/mate-sudoku/show_impossible_implications</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/always_show_hints</key>
+      <applyto>/apps/mate-sudoku/always_show_hints</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Show hints</short>
+        <long>Show hints</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_for_target</key>
+      <applyto>/apps/mate-sudoku/generate_for_target</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/generate_endlessly</key>
+      <applyto>/apps/mate-sudoku/generate_endlessly</applyto>
+      <owner>mate-sudoku</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+        <short></short>
+        <long></long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/mate-sudoku/sudokus_per_page</key>
+      <applyto>/apps/mate-sudoku/sudokus_per_page</applyto>
+      <owner>mate-sudoku</owner>
+      <type>int</type>
+      <default>2</default>
+      <locale name="C">
+        <short>Number of puzzles to print on a page</short>
+        <long>Number of puzzles to print on a page</long>
+      </locale>
+    </schema>
+    
+  </schemalist>
+</mateconfschemafile>

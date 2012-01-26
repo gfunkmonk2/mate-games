@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Tetravex
+_Comment=Complete the puzzle by matching numbered tiles
+Exec=/usr/games/gnotravex
+Icon=mate-tetravex
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;LogicGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true

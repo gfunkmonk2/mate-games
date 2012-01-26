@@ -1,0 +1,6 @@
+debian/pixmaps/*.xpm /usr/share/pixmaps
+debian/tmp/usr/share/[!a]*[!n]
+debian/tmp/usr/share/mate-games/icons
+debian/tmp/etc/mateconf
+debian/tmp/usr/lib/python*
+debian/scores.png /usr/share/mate-games/icons/hicolor/24x24/actions

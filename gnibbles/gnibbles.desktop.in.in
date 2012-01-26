@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Nibbles
+_Comment=Guide a worm around a maze
+Exec=/usr/games/gnibbles
+Icon=mate-gnibbles
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;ArcadeGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true

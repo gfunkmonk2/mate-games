@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Robots
+_Comment=Avoid the robots and make them crash into each other
+Exec=/usr/games/gnobots2
+Icon=mate-robots
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;ArcadeGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true

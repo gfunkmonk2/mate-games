@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Lights Off
+_Comment=Turn off all the lights
+Icon=mate-lightsoff
+Exec=/usr/games/lightsoff
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;LogicGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=false

@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+include /usr/share/cdbs/1/rules/utils.mk
+
+DEB_CONFIGURE_EXTRA_FLAGS := --bindir=\$${prefix}/games \
+		--disable-gnuchess --with-tls=GnuTLS \
+		--disable-scrollkeeper \
+		--disable-introspection \
+		--enable-omitgames=lightsoff,swell-foop
+
+DEB_DH_FIXPERMS_ARGS := -X/usr/games
+DEB_DH_MAKESHLIBS_ARGS_mate-games := --no-act
+DEB_CONFIGURE_SCRIPT_ENV += LDFLAGS="-Wl,-z,defs -Wl,-O1 -Wl,--as-needed"
+
+binary-post-install/mate-games::
+	chmod u+w debian/mate-games/usr/games/*
+
+binary-post-install/mate-games-data::
+	dh_pysupport -pmate-games-data
+
+binary-post-install/mate-games::
+	dh_pysupport -pmate-games

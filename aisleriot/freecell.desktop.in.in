@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=FreeCell Solitaire
+_Comment=Play the popular FreeCell card game
+Exec=/usr/games/sol --freecell
+Icon=mate-freecell
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;CardGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true

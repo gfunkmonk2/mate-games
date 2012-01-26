@@ -1,0 +1,16 @@
+[Desktop Entry]
+_Name=AisleRiot Solitaire
+_Comment=Play many different solitaire games
+Exec=/usr/games/sol
+Icon=mate-aisleriot
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;CardGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Service=org.mate.Games.AisleRiot
+X-Osso-Type=application/x-executable

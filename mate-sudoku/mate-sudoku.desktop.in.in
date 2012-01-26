@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Sudoku
+_Comment=Test your logic skills in this number grid puzzle
+Exec=/usr/games/mate-sudoku
+Icon=mate-sudoku
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;LogicGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true
+Version=1.0

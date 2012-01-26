@@ -1,0 +1,13 @@
+[Desktop Entry]
+_Name=Tali
+_Comment=Beat the odds in a poker-style dice game
+Exec=/usr/games/gtali
+Icon=mate-tali
+Terminal=false
+Type=Application
+Categories=MATE;GTK;Game;CardGame;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-games
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+StartupNotify=true
